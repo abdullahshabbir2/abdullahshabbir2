@@ -62,9 +62,13 @@
 
 ---
 
-## 📂 Projects by Complexity
+## 📂 Projects
 
-### Level 5 - Production IoT Systems
+#### 🚗 EV Battery Monitoring & Control System
+
+FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cloud uplink, GPS tracking, RS485/Modbus metering, and safe fail-state handling for battery-side control logic.
+
+`STM32` `FreeRTOS` `CAN` `GSM` `GPS` `RS485` `Modbus` `C`
 
 #### 🌱 [Smart IoT Greenhouse System](https://github.com/abdullahshabbir2/Smart_IoT_GreenHouse)
 
@@ -78,21 +82,11 @@ Custom Home Assistant integration plus ESP32 firmware for cistern monitoring, re
 
 `ESP32` `Python` `Home Assistant` `Arduino` `REST/JSON` `Lovelace` `Automation`
 
-### Level 4 - Advanced Embedded & Wireless
-
 #### 🔌 [ESP32 + Quectel M95 - MQTT over GSM](https://github.com/abdullahshabbir2/quectelm95_gsm_mqtt)
 
 Bare-metal ESP32 firmware that drives a Quectel M95 GSM modem directly through AT commands. It handles PDP context activation, TCP transport setup, MQTT CONNECT/PUBLISH flow, response validation, and the two-step `QMTPUB` payload prompt sequence.
 
 `ESP32` `C++` `AT Commands` `MQTT` `GSM/GPRS` `UART` `PlatformIO`
-
-#### 🚗 EV Battery Monitoring & Control System
-
-FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cloud uplink, GPS tracking, RS485/Modbus metering, and safe fail-state handling for battery-side control logic.
-
-`STM32` `FreeRTOS` `CAN` `GSM` `GPS` `RS485` `Modbus` `C`
-
-### Level 3 - Applied Software, AI & Algorithms
 
 #### 🧠 Parkinson's Monitoring System
 
@@ -104,12 +98,6 @@ FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cl
 Java Swing desktop inventory system with MySQL-backed create, read, update, and delete flows for grocery items, plus a Jupyter Notebook component for data-oriented work in the same repository.
 
 `Java` `Swing` `MySQL` `JDBC` `CRUD` `Jupyter Notebook`
-
-#### 🎮 [PacMan Search Algorithms Game](https://github.com/abdullahshabbir2/PacMan-Game)
-
-Java PacMan game project with two search-based levels: one using DFS and one using A* pathfinding, showing algorithmic problem solving in an interactive game setting.
-
-`Java` `DFS` `A* Search` `Pathfinding` `Game Logic`
 
 ---
 
