@@ -1,136 +1,111 @@
-<h1 align="center">👋 Hi, I'm Abdullah Shabbir</h1>
-<h3 align="center">IoT & Embedded Systems Engineer — From schematic to cloud, I own the full stack.</h3>
+<h1 align="center">Hi, I'm Abdullah Shabbir</h1>
 
 <p align="center">
-  📍 Genoa, Italy &nbsp;|&nbsp;
-  ✉️ abdullahshabbir2@gmail.com &nbsp;|&nbsp;
+  <strong>IoT and Embedded Systems Engineer</strong><br>
+  Building connected hardware from schematic and PCB layout to firmware, cloud, and dashboards.
+</p>
+
+<p align="center">
+  Genoa, Italy |
+  <a href="mailto:abdullahshabbir2@gmail.com">abdullahshabbir2@gmail.com</a> |
   <a href="https://linkedin.com/in/abdullah-shabbir960373196">LinkedIn</a>
 </p>
 
 ---
 
-## 💼 About Me
+## About
 
-- 🔧 I build end-to-end embedded products — schematic and PCB layout through firmware to cloud backend.
-- 📡 I specialise in **low-power wearables**, **real-time RTOS systems**, and **wireless stacks** (BLE 5.0, LoRa, MQTT, CAN, GSM).
-- 🧠 I own the full toolchain: **C/C++ firmware**, **EasyEDA PCB design**, **LTspice simulation**, **Python backends**, and **AWS IoT**.
-- 🎓 Currently pursuing an **M.Sc. in Internet & Multimedia Engineering** at the University of Genoa, Italy.
-- 💼 2+ years delivering 10+ commercial embedded products across healthcare, smart home, EV, and environmental-monitoring domains.
+I build end-to-end embedded products across firmware, PCB design, wireless communication, and IoT backends. My work focuses on low-power wearables, real-time control systems, BLE/GSM/LoRa connectivity, and cloud-connected automation.
 
----
-
-## 🧠 Expertise
-
-- **🔲 Microcontrollers:** ESP32, ESP8266, STM32 (F1/F4), nRF52840 (Nordic), ARM Cortex-M, Raspberry Pi
-- **⚙️ RTOS & Firmware:** FreeRTOS, Zephyr OS, ESP-IDF, bare-metal C — deterministic scheduling with sub-10 ms task jitter
-- **📡 Wireless & Protocols:** BLE 5.0 (ACK-based, chunked transfer), LoRa, MQTT, GSM/LTE, CAN (ISO 11898), RS485/Modbus, NFC, OPC-UA
-- **🖥️ PCB Design:** 8+ custom boards in EasyEDA — schematic → layout → DRC → Gerber → fabrication → bring-up; RF antenna placement, EMC best practices
-- **☁️ Cloud & IoT Platforms:** AWS IoT Core, Azure IoT Hub, ThingsBoard, OpenRemote, Home Assistant
-- **🐍 Backend:** Python (FastAPI/Flask), AWS Lambda, MQTT brokers, OTA pipelines
-- **🔬 Simulation & Debug:** LTspice, oscilloscope, logic analyser, JTAG/OpenOCD
+- 2+ years delivering commercial embedded products in healthcare, smart home, EV, and environmental monitoring.
+- 10+ product builds across ESP32, STM32, nRF52, Raspberry Pi, FreeRTOS, Zephyr OS, and bare-metal C/C++.
+- 8+ custom PCB designs in EasyEDA, covering schematic capture, layout, DRC, Gerbers, fabrication, bring-up, and debugging.
+- Currently pursuing an M.Sc. in Internet and Multimedia Engineering at the University of Genoa, Italy.
 
 ---
 
-## 🚀 Tech Stack
+## Core Stack
 
-**Microcontrollers & RTOS**
+| Area | Tools and technologies |
+| --- | --- |
+| Firmware | C, C++, ESP-IDF, FreeRTOS, Zephyr OS, bare-metal embedded C |
+| Hardware | ESP32, ESP8266, STM32, nRF52840, ARM Cortex-M, Raspberry Pi |
+| Connectivity | BLE 5.0, MQTT, GSM/GPRS/LTE, LoRa, CAN, RS485/Modbus, NFC |
+| PCB and debug | EasyEDA, LTspice, oscilloscope, logic analyzer, JTAG/OpenOCD |
+| Cloud and backend | Python, FastAPI, Flask, AWS IoT Core, Azure IoT Hub, Home Assistant, ThingsBoard |
 
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![nRF52](https://img.shields.io/badge/nRF52840-00A9CE?style=for-the-badge&logo=nordicsemiconductor&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-8CC84B?style=for-the-badge)
-![Zephyr](https://img.shields.io/badge/Zephyr_OS-6A5ACD?style=for-the-badge)
-
-**Languages**
-
-![C](https://img.shields.io/badge/C-Expert-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-Proficient-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-Proficient-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**Wireless & Protocols**
-
-![BLE](https://img.shields.io/badge/BLE_5.0-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
-![LoRa](https://img.shields.io/badge/LoRa-00AEEF?style=for-the-badge)
-![CAN](https://img.shields.io/badge/CAN_Bus-FF6600?style=for-the-badge)
-![GSM](https://img.shields.io/badge/GSM%2FLTE-4CAF50?style=for-the-badge)
-![RS485](https://img.shields.io/badge/RS485%2FModbus-555555?style=for-the-badge)
-
-**Cloud & Tools**
-
-![AWS IoT](https://img.shields.io/badge/AWS_IoT_Core-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure IoT](https://img.shields.io/badge/Azure_IoT_Hub-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Home Assistant](https://img.shields.io/badge/Home_Assistant-41BDF5?style=for-the-badge&logo=homeassistant&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=platformio&logoColor=white)
-![EasyEDA](https://img.shields.io/badge/EasyEDA-1B6CA8?style=for-the-badge)
-![LTspice](https://img.shields.io/badge/LTspice-A50021?style=for-the-badge)
+<p align="center">
+  <img alt="ESP32" src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white">
+  <img alt="STM32" src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white">
+  <img alt="nRF52" src="https://img.shields.io/badge/nRF52-00A9CE?style=for-the-badge&logo=nordicsemiconductor&logoColor=white">
+  <img alt="FreeRTOS" src="https://img.shields.io/badge/FreeRTOS-8CC84B?style=for-the-badge">
+  <img alt="Zephyr OS" src="https://img.shields.io/badge/Zephyr_OS-6A5ACD?style=for-the-badge">
+  <img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
+  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+</p>
 
 ---
 
-## 📂 Selected Projects
+## Selected Work
 
-### 🔌 [ESP32 + Quectel M95 — MQTT over GSM](https://github.com/abdullahshabbir2/quectelm95_gsm_mqtt)
-I drive a Quectel M95 GSM modem directly via AT commands from an ESP32 — no high-level library in the middle. I implemented the full sequence myself: PDP context activation → TCP connect → MQTT CONNECT handshake → PUBLISH with proper `>` prompt handling. A custom `GSM_MQTT` class wraps the AT protocol with response validation and state tracking.
+### [ESP32 + Quectel M95: MQTT over GSM](https://github.com/abdullahshabbir2/quectelm95_gsm_mqtt)
+
+Direct ESP32 control of a Quectel M95 GSM modem using AT commands, with no high-level modem library. The firmware handles PDP context activation, TCP connection setup, MQTT CONNECT/PUBLISH flow, prompt parsing, response validation, and modem state tracking.
+
 `ESP32` `C++` `AT Commands` `MQTT` `GSM/GPRS` `PlatformIO`
 
----
+### [Smart Cistern and Irrigation Controller](https://github.com/abdullahshabbir2/home-assistant-cistern-integration)
 
-### 🚰 [Smart Cistern & Irrigation Controller](https://github.com/abdullahshabbir2/home-assistant-cistern-integration)
-A custom Python Home Assistant integration exposing 6-zone relays, timers, a water-level sensor, and settings as native Lovelace entities. I implemented two-tier automation: on-device rules (rain override, low-water cutoff) for offline resilience, and HA automations for complex multi-sensor cross-zone logic. Bidirectional HTTP state sync keeps the dashboard and hardware consistent at all times.
+Custom Home Assistant integration for 6-zone relay control, timers, water-level sensing, and native Lovelace entities. The system combines offline device-side protection rules with Home Assistant automations and bidirectional HTTP state sync.
+
 `ESP32` `Python` `Home Assistant` `MQTT` `HTTP`
 
----
+### Smart Diffuser Platform
 
-### 💨 Smart Diffuser Platform — *Multi-PCB · BLE 5.0 + Wi-Fi*
-3V/5V/12V PCB variants from a shared schematic with hardware-selectable power paths. ESP-IDF + FreeRTOS firmware with concurrent motor control (limit-switch feedback), RTC-based offline scheduling, and BLE 5.0 with ACK-based delivery, retries, and chunked transfer. **Zero field failures** across the initial production batch.
+Multi-voltage 3V/5V/12V PCB variants from a shared schematic, with ESP-IDF and FreeRTOS firmware for motor control, limit-switch feedback, RTC-based offline scheduling, and BLE 5.0 transfer with acknowledgements, retries, and chunking.
+
 `ESP32` `ESP-IDF` `FreeRTOS` `BLE 5.0` `EasyEDA` `C`
 
----
+### Infant Monitoring Wearable
 
-### 👶 Infant Monitoring Wearable — *nRF52840 + Zephyr OS*
-Medical-grade wearable for continuous infant SpO₂/HR (PPG) and motion (IMU) monitoring. My sensor-fusion pipeline suppressed movement artefacts; the power architecture achieved **<15 µA average in deep-sleep** with 5 s wake-acquire-transmit cycles. BLE 5.0 streamed processed physiological data to a gateway hub in real time.
+nRF52840 and Zephyr OS wearable for continuous infant SpO2/HR and IMU monitoring. The design combined low-power firmware, BLE streaming, motion-aware signal processing, and a deep-sleep power profile below 15 uA average.
+
 `nRF52840` `Zephyr OS` `BLE 5.0` `PPG` `IMU` `C`
 
----
+### EV Battery Monitoring and Control System
 
-### 🚗 EV Battery Monitoring & Control System — *CAN + RTOS + GSM*
-CAN bus (ISO 11898, 500 kbps) backbone for battery cell telemetry with FreeRTOS priority-partitioned tasks keeping battery switching logic at **sub-5 ms latency** with safe fail-state transitions. GSM cloud uplink, GPS tracking pipeline, and PZEM-004T smart metering over RS485/Modbus.
-`STM32` `FreeRTOS` `CAN Bus` `GSM` `RS485` `Modbus` `C`
+FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cloud uplink, GPS tracking, RS485/Modbus metering, and safe fail-state handling for battery-side control logic.
 
----
+`STM32` `FreeRTOS` `CAN` `GSM` `RS485` `Modbus` `C`
 
-### 🧠 Parkinson's Monitoring System — *B.Sc. FYP · Distinction*
-A two-tier distributed system: wearable IMU edge nodes extracted tremor frequency, amplitude, and gait features locally (**>90% data reduction** vs raw streaming) and transmitted over BLE to a Raspberry Pi fog node running a classification pipeline. The system operated fully offline, reducing round-trip latency ~70%.
-`nRF52` `BLE 5.0` `Raspberry Pi` `Python` `IMU` `Edge ML` `C`
+### Parkinson's Monitoring System
 
----
+B.Sc. final-year project using wearable IMU edge nodes and a Raspberry Pi fog node. The edge nodes extracted tremor and gait features locally, reducing raw data transmission by more than 90% before BLE transfer to the classifier.
 
-## 🖨️ PCB Design Highlights
-
-I've taped out 8+ custom boards in EasyEDA — full workflow from schematic through layout, DRC, Gerber, fabrication, and bring-up.
-
-- 📦 Multi-voltage product boards (3V/5V/12V) with shared schematic and hardware-selectable power paths
-- 📶 NFC integration with RF keepout zones, impedance-matched traces, and ground plane management
-- 🛰️ Ultra-compact GPS + LoRa/GSM tracker PCB (<30 g) with RF antenna trade-offs for range, isolation, and form factor
-- ⌚ Wearable layouts: miniaturised power management and PPG/IMU sensor interfaces on nRF52-based designs
-- 🔬 LTspice used alongside layout for power supply simulation and analog signal-path verification
+`nRF52` `BLE 5.0` `Raspberry Pi` `Python` `IMU` `Edge ML`
 
 ---
 
-## 🎓 Education
+## PCB Design Highlights
+
+- Multi-voltage product boards with shared schematics and hardware-selectable power paths.
+- NFC layouts with RF keepout zones, impedance-aware routing, and ground-plane control.
+- Compact GPS + LoRa/GSM tracker PCB design under 30 g.
+- Wearable PCB layouts with miniaturized power management and PPG/IMU sensor interfaces.
+- Power-supply and analog signal-path verification with LTspice.
+
+---
+
+## Education
 
 | Degree | Institution | Year |
-|--------|------------|------|
-| M.Sc. Internet & Multimedia Engineering | University of Genoa, Italy | 2024 – Present |
-| B.Sc. Computer Engineering *(FYP — Distinction)* | COMSATS University Islamabad, Pakistan | 2019 – 2023 |
-
----
-
-> *"The art of programming is the art of organising complexity."*
-> — Edsger W. Dijkstra
+| --- | --- | --- |
+| M.Sc. Internet and Multimedia Engineering | University of Genoa, Italy | 2024 - Present |
+| B.Sc. Computer Engineering, FYP Distinction | COMSATS University Islamabad, Pakistan | 2019 - 2023 |
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdullahshabbir2&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img alt="Abdullah's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=abdullahshabbir2&show_icons=true&theme=default&hide_border=true">
 </p>
