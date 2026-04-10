@@ -47,6 +47,7 @@
   <img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
   <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
   <img alt="FreeRTOS" src="https://img.shields.io/badge/FreeRTOS-8CC84B?style=for-the-badge">
   <img alt="Zephyr OS" src="https://img.shields.io/badge/Zephyr_OS-6A5ACD?style=for-the-badge">
   <img alt="BLE" src="https://img.shields.io/badge/BLE_5.0-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white">
@@ -61,37 +62,67 @@
 
 ---
 
-## 📂 Featured Projects
+## 📂 Projects by Complexity
 
-### 🔌 [ESP32 + Quectel M95 - MQTT over GSM](https://github.com/abdullahshabbir2/quectelm95_gsm_mqtt)
+### Level 5 - Production IoT Systems
 
-Direct ESP32 control of a Quectel M95 GSM modem using AT commands, with no high-level modem library. The firmware handles PDP context activation, TCP connection setup, MQTT CONNECT/PUBLISH flow, prompt parsing, response validation, and modem state tracking.
+#### 🌱 [Smart IoT Greenhouse System](https://github.com/abdullahshabbir2/Smart_IoT_GreenHouse)
 
-`ESP32` `C++` `AT Commands` `MQTT` `GSM/GPRS` `PlatformIO`
+Dual-node ESP32 greenhouse automation system with independent local dashboards, REST APIs, mDNS discovery, NVS persistence, watchdog recovery, CORS support, fan hysteresis, pump scheduling, low-water lockout, and rain-based irrigation protection.
 
-### 🚰 [Smart Cistern & Irrigation Controller](https://github.com/abdullahshabbir2/home-assistant-cistern-integration)
+`ESP32` `C++` `PlatformIO` `REST API` `mDNS` `NVS` `Watchdog` `IoT Dashboard`
 
-Custom Home Assistant integration for 6-zone relay control, timers, water-level sensing, and native Lovelace entities. The system combines offline device-side protection rules with Home Assistant automations and bidirectional HTTP state sync.
+#### 🚰 [Smart Cistern & Irrigation Controller](https://github.com/abdullahshabbir2/home-assistant-cistern-integration)
 
-`ESP32` `Python` `Home Assistant` `MQTT` `HTTP`
+Custom Home Assistant integration plus ESP32 firmware for cistern monitoring, relay control, irrigation scheduling, telemetry polling, Zeroconf discovery, coordinator-based updates, and Lovelace dashboard entities.
 
-### 💨 Smart Diffuser Platform
+`ESP32` `Python` `Home Assistant` `Arduino` `REST/JSON` `Lovelace` `Automation`
+
+#### 💨 Smart Diffuser Platform
 
 Multi-voltage 3V/5V/12V PCB variants from a shared schematic, with ESP-IDF and FreeRTOS firmware for motor control, limit-switch feedback, RTC-based offline scheduling, and BLE 5.0 transfer with acknowledgements, retries, and chunking.
 
 `ESP32` `ESP-IDF` `FreeRTOS` `BLE 5.0` `EasyEDA` `C`
 
-### 👶 Infant Monitoring Wearable
+### Level 4 - Advanced Embedded & Wireless
+
+#### 🔌 [ESP32 + Quectel M95 - MQTT over GSM](https://github.com/abdullahshabbir2/quectelm95_gsm_mqtt)
+
+Bare-metal ESP32 firmware that drives a Quectel M95 GSM modem directly through AT commands. It handles PDP context activation, TCP transport setup, MQTT CONNECT/PUBLISH flow, response validation, and the two-step `QMTPUB` payload prompt sequence.
+
+`ESP32` `C++` `AT Commands` `MQTT` `GSM/GPRS` `UART` `PlatformIO`
+
+#### 👶 Infant Monitoring Wearable
 
 nRF52840 and Zephyr OS wearable for continuous infant SpO2/HR and IMU monitoring. The design combined low-power firmware, BLE streaming, motion-aware signal processing, and a deep-sleep power profile below 15 uA average.
 
-`nRF52840` `Zephyr OS` `BLE 5.0` `PPG` `IMU` `C`
+`nRF52840` `Zephyr OS` `BLE 5.0` `PPG` `IMU` `Low Power` `C`
 
-### 🚗 EV Battery Monitoring & Control System
+#### 🚗 EV Battery Monitoring & Control System
 
 FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cloud uplink, GPS tracking, RS485/Modbus metering, and safe fail-state handling for battery-side control logic.
 
-`STM32` `FreeRTOS` `CAN` `GSM` `RS485` `Modbus` `C`
+`STM32` `FreeRTOS` `CAN` `GSM` `GPS` `RS485` `Modbus` `C`
+
+### Level 3 - Applied Software, AI & Algorithms
+
+#### 🧠 Parkinson's Monitoring System
+
+B.Sc. final-year project using wearable IMU edge nodes and a Raspberry Pi fog node. The edge nodes extracted tremor and gait features locally, reducing raw data transmission by more than 90% before BLE transfer to the classifier.
+
+`nRF52` `BLE 5.0` `Raspberry Pi` `Python` `IMU` `Edge ML`
+
+#### 🛒 [Grocery Warehouse Inventory System](https://github.com/abdullahshabbir2/Grocery-WareHouse)
+
+Java Swing desktop inventory system with MySQL-backed create, read, update, and delete flows for grocery items, plus a Jupyter Notebook component for data-oriented work in the same repository.
+
+`Java` `Swing` `MySQL` `JDBC` `CRUD` `Jupyter Notebook`
+
+#### 🎮 [PacMan Search Algorithms Game](https://github.com/abdullahshabbir2/PacMan-Game)
+
+Java PacMan game project with two search-based levels: one using DFS and one using A* pathfinding, showing algorithmic problem solving in an interactive game setting.
+
+`Java` `DFS` `A* Search` `Pathfinding` `Game Logic`
 
 ---
 
@@ -111,9 +142,3 @@ FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cl
 | --- | --- | --- |
 | M.Sc. Internet and Multimedia Engineering | University of Genoa, Italy | 2024 - Present |
 | B.Sc. Computer Engineering, FYP Distinction | COMSATS University Islamabad, Pakistan | 2019 - 2023 |
-
----
-
-<p align="center">
-  <img alt="Abdullah's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=abdullahshabbir2&show_icons=true&theme=default&hide_border=true">
-</p>
