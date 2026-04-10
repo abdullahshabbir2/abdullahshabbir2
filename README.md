@@ -8,7 +8,7 @@
 <p align="center">
   Genoa, Italy |
   <a href="mailto:abdullahshabbir2@gmail.com">abdullahshabbir2@gmail.com</a> |
-  <a href="https://linkedin.com/in/abdullah-shabbir960373196">LinkedIn</a>
+  <a href="https://linkedin.com/in/abdullahshabbir2">LinkedIn</a>
 </p>
 
 ---
