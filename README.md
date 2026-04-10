@@ -62,9 +62,25 @@
 
 ---
 
-## 📂 Projects by Complexity
+## 📂 Projects
 
-### Level 5 - Production IoT Systems
+#### 💨 Smart Diffuser Platform
+
+Multi-voltage 3V/5V/12V PCB variants from a shared schematic, with ESP-IDF and FreeRTOS firmware for motor control, limit-switch feedback, RTC-based offline scheduling, and BLE 5.0 transfer with acknowledgements, retries, and chunking.
+
+`ESP32` `ESP-IDF` `FreeRTOS` `BLE 5.0` `EasyEDA` `C`
+
+#### 🚗 EV Battery Monitoring & Control System
+
+FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cloud uplink, GPS tracking, RS485/Modbus metering, and safe fail-state handling for battery-side control logic.
+
+`STM32` `FreeRTOS` `CAN` `GSM` `GPS` `RS485` `Modbus` `C`
+
+#### 👶 Infant Monitoring Wearable
+
+nRF52840 and Zephyr OS wearable for continuous infant SpO2/HR and IMU monitoring. The design combined low-power firmware, BLE streaming, motion-aware signal processing, and a deep-sleep power profile below 15 uA average.
+
+`nRF52840` `Zephyr OS` `BLE 5.0` `PPG` `IMU` `Low Power` `C`
 
 #### 🌱 [Smart IoT Greenhouse System](https://github.com/abdullahshabbir2/Smart_IoT_GreenHouse)
 
@@ -78,33 +94,11 @@ Custom Home Assistant integration plus ESP32 firmware for cistern monitoring, re
 
 `ESP32` `Python` `Home Assistant` `Arduino` `REST/JSON` `Lovelace` `Automation`
 
-#### 💨 Smart Diffuser Platform
-
-Multi-voltage 3V/5V/12V PCB variants from a shared schematic, with ESP-IDF and FreeRTOS firmware for motor control, limit-switch feedback, RTC-based offline scheduling, and BLE 5.0 transfer with acknowledgements, retries, and chunking.
-
-`ESP32` `ESP-IDF` `FreeRTOS` `BLE 5.0` `EasyEDA` `C`
-
-### Level 4 - Advanced Embedded & Wireless
-
 #### 🔌 [ESP32 + Quectel M95 - MQTT over GSM](https://github.com/abdullahshabbir2/quectelm95_gsm_mqtt)
 
 Bare-metal ESP32 firmware that drives a Quectel M95 GSM modem directly through AT commands. It handles PDP context activation, TCP transport setup, MQTT CONNECT/PUBLISH flow, response validation, and the two-step `QMTPUB` payload prompt sequence.
 
 `ESP32` `C++` `AT Commands` `MQTT` `GSM/GPRS` `UART` `PlatformIO`
-
-#### 👶 Infant Monitoring Wearable
-
-nRF52840 and Zephyr OS wearable for continuous infant SpO2/HR and IMU monitoring. The design combined low-power firmware, BLE streaming, motion-aware signal processing, and a deep-sleep power profile below 15 uA average.
-
-`nRF52840` `Zephyr OS` `BLE 5.0` `PPG` `IMU` `Low Power` `C`
-
-#### 🚗 EV Battery Monitoring & Control System
-
-FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cloud uplink, GPS tracking, RS485/Modbus metering, and safe fail-state handling for battery-side control logic.
-
-`STM32` `FreeRTOS` `CAN` `GSM` `GPS` `RS485` `Modbus` `C`
-
-### Level 3 - Applied Software, AI & Algorithms
 
 #### 🧠 Parkinson's Monitoring System
 
@@ -117,12 +111,6 @@ B.Sc. final-year project using wearable IMU edge nodes and a Raspberry Pi fog no
 Java Swing desktop inventory system with MySQL-backed create, read, update, and delete flows for grocery items, plus a Jupyter Notebook component for data-oriented work in the same repository.
 
 `Java` `Swing` `MySQL` `JDBC` `CRUD` `Jupyter Notebook`
-
-#### 🎮 [PacMan Search Algorithms Game](https://github.com/abdullahshabbir2/PacMan-Game)
-
-Java PacMan game project with two search-based levels: one using DFS and one using A* pathfinding, showing algorithmic problem solving in an interactive game setting.
-
-`Java` `DFS` `A* Search` `Pathfinding` `Game Logic`
 
 ---
 
