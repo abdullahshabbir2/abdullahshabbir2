@@ -70,6 +70,12 @@ FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cl
 
 `STM32` `FreeRTOS` `CAN` `GSM` `GPS` `RS485` `Modbus` `C`
 
+#### 🌬️ [Smart Air Purifier & Air Quality Monitor](https://github.com/abdullahshabbir2/AirPurifier)
+
+ESP32 purifier firmware that computes a US EPA Air Quality Index on-device from particulate, CO, NO2, temperature, and humidity sensors, then drives the fan to match through hysteresis-damped PWM speed control. Publishes telemetry over both a versioned REST API and a NimBLE GATT service with notifications, provisions WiFi from a phone over BLE, and ships a dependency-free AQI engine covered by 120 host unit tests in CI.
+
+`ESP32` `ESP-IDF` `FreeRTOS` `BLE 5.0` `NimBLE` `REST API` `LEDC PWM` `Unit Testing` `GitHub Actions` `C`
+
 #### 🌱 [Smart IoT Greenhouse System](https://github.com/abdullahshabbir2/Smart_IoT_GreenHouse)
 
 Dual-node ESP32 greenhouse automation system with independent local dashboards, REST APIs, mDNS discovery, NVS persistence, watchdog recovery, CORS support, fan hysteresis, pump scheduling, low-water lockout, and rain-based irrigation protection.
