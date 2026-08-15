@@ -23,7 +23,7 @@
 
 🎓 Currently pursuing an <strong>M.Sc. in Internet and Multimedia Engineering</strong> at the University of Genoa, Italy.
 
-🚀 2+ years delivering commercial embedded products across healthcare, smart home, EV, and environmental-monitoring domains.
+🚀 3+ years delivering commercial embedded products across healthcare, smart home, EV, and environmental-monitoring domains.
 
 ---
 
