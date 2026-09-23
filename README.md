@@ -35,6 +35,7 @@
 - 🧩 <strong>PCB Design:</strong> EasyEDA schematic/layout, DRC, Gerbers, fabrication handoff, bring-up, RF-aware layouts
 - ☁️ <strong>Cloud & Backend:</strong> Python, FastAPI, Flask, AWS IoT Core, Azure IoT Hub, Home Assistant, ThingsBoard
 - 🛠️ <strong>Debug & Simulation:</strong> LTspice, oscilloscope, logic analyzer, JTAG/OpenOCD, PlatformIO
+- <strong>Automotive Diagnostics & Binary Analysis:</strong> CAN/ISO-TP and UDS lab implementations, executable inspection, checksum verification, constrained binary patching, and fault-injection testing
 
 ---
 
@@ -60,9 +61,32 @@
   <img alt="EasyEDA" src="https://img.shields.io/badge/EasyEDA-1B6CA8?style=for-the-badge">
 </p>
 
+<p><strong>Automotive diagnostics & binary analysis (host-validated projects)</strong></p>
+<p>
+  <img alt="ISO-TP" src="https://img.shields.io/badge/ISO--TP-176B87?style=for-the-badge">
+  <img alt="UDS" src="https://img.shields.io/badge/UDS-005F73?style=for-the-badge">
+  <img alt="Binary Analysis" src="https://img.shields.io/badge/Binary_Analysis-5B4B8A?style=for-the-badge">
+  <img alt="GNU Binutils" src="https://img.shields.io/badge/GNU_Binutils-A42E2B?style=for-the-badge&logo=gnu&logoColor=white">
+  <img alt="CRC and SHA-256" src="https://img.shields.io/badge/CRC_%26_SHA--256-287271?style=for-the-badge">
+  <img alt="Fault Injection Testing" src="https://img.shields.io/badge/Fault_Injection_Testing-9B5D20?style=for-the-badge">
+</p>
+
 ---
 
 ## 📂 Projects
+
+#### [ECU Programming Workbench](https://github.com/abdullahshabbir2/ecu-programming-workbench)
+
+Python diagnostic-programming laboratory with a virtual ECU, classical CAN/ISO-TP transport, a UDS service subset, session handling, block transfers, integrity verification, and A/B image activation. Includes lost-acknowledgement recovery, voltage/RPM interlocks, interrupted-update tests, and recorded CAN/UDS traces. **36 automated tests** cover the host simulation; physical ECU flashing is outside its validated scope.
+
+`Python` `CAN` `ISO-TP` `UDS` `A/B Update Model` `CRC32` `SHA-256` `Fault Injection`
+
+#### [Strategy Patch Lab](https://github.com/abdullahshabbir2/strategy-patch-lab)
+
+C++17 strategy model and owned-binary modification workflow for a Windows x86-64 host executable. Extracts calibration tables, applies a hash-checked instruction patch, corrects the PE checksum, compares baseline/patched behavior, and restores the exact original binary. Models map switching, ethanol fuel compensation, launch and shift torque limits with protection checks. Includes disassembly, address maps, **11 patch tests**, and a **421-step replay**. Validation uses an owned x86-64 image and synthetic inputs.
+
+`C++17` `Python` `Binary Analysis` `PE32+` `GNU objdump / nm` `Checksum Verification` `Regression Testing`
+
 
 #### 🚗 EV Battery Monitoring & Control System
 
