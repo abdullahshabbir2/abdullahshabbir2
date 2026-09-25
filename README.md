@@ -49,6 +49,7 @@
   <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+  <img alt="AUTOSAR" src="https://img.shields.io/badge/AUTOSAR_Classic-C8102E?style=for-the-badge">
   <img alt="FreeRTOS" src="https://img.shields.io/badge/FreeRTOS-8CC84B?style=for-the-badge">
   <img alt="Zephyr OS" src="https://img.shields.io/badge/Zephyr_OS-6A5ACD?style=for-the-badge">
   <img alt="BLE" src="https://img.shields.io/badge/BLE_5.0-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white">
@@ -74,6 +75,18 @@
 ---
 
 ## 📂 Projects
+
+#### 🚘 [AUTOSAR EV Telematics & Odometry ECU](https://github.com/abdullahshabbir2/autosar-ev-telematics)
+
+Production-grade **AUTOSAR Classic** layered firmware for an electric-vehicle telematics and odometry ECU, rebuilt from a shipped v1 that lost odometer data in the field. Five layers — MCAL, ECU abstraction, services, RTE, application — with every hardware-touching module split into a host-testable pure core and a target-only platform leaf. Roughly **90% of the source runs under the host suite**, and the split is enforced mechanically: the test runner links every source file into every test binary, so a platform dependency leaking above the MCAL is a link error rather than a review comment.
+
+Integer-only odometry with a Q32 conversion factor and carried remainder, because `float` cannot represent every millimetre past 16.8 km. Crash-safe flash persistence where a record becomes authoritative on a single byte write. ISO 14229 diagnostic event management with debouncing, freeze frames and healing. Per-task watchdog supervision with execution budgets asserted at compile time.
+
+**333 host unit tests** across 16 suites · **six CI gates** (tests under 11 warning flags, firmware build, cppcheck, clang-format, Doxygen warnings-as-errors, credential hygiene) · 129 documented requirements with generated traceability · six architecture decision records · eight hand-written SVG diagrams.
+
+Writing the tests found four defects in code that had already been reviewed: a silent NvM write loss, a poisoned flash slot no retry could clear, a backlog that never crossed a date boundary, and a cellular fallback that was permanent for the life of the run.
+
+`AUTOSAR Classic` `Embedded C` `ESP32` `FreeRTOS` `CAN` `RS485/Modbus` `ISO 14229 UDS` `Unit Testing` `GitHub Actions` `Doxygen`
 
 #### [ECU Programming Workbench](https://github.com/abdullahshabbir2/ecu-programming-workbench)
 
