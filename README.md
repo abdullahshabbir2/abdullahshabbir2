@@ -378,7 +378,7 @@ Java Swing desktop inventory system with MySQL-backed create, read, update, and 
 <div align="center">
 
 <img height="170" alt="GitHub stats" src="./profile-summary-card-output/github_dark/3-stats.svg">
-<img height="170" alt="Most committed languages" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg">
+<img height="170" alt="Most used languages" src="./assets/top-langs.svg">
 
 <img alt="Contribution profile" src="./profile-summary-card-output/github_dark/0-profile-details.svg">
 
