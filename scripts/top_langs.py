@@ -2,8 +2,9 @@
 
 Sums GitHub's per-repository language breakdown across every non-fork repo
 the user owns, so C++ inside a repo whose primary language is C still counts.
-Uses STATS_TOKEN (a personal token) when set to include private repos,
-otherwise GITHUB_TOKEN and public repos only.
+Uses STATS_TOKEN (a personal token) when set to include private repos and
+repos the user collaborates on or reaches through organisation membership;
+otherwise GITHUB_TOKEN and the user's own public repos only.
 """
 import json
 import os
@@ -29,7 +30,7 @@ def get(url):
 
 
 def repos():
-    base = ("https://api.github.com/user/repos?affiliation=owner&visibility=all"
+    base = ("https://api.github.com/user/repos?affiliation=owner,collaborator,organization_member&visibility=all"
             if PRIVATE else f"https://api.github.com/users/{USER}/repos?type=owner")
     page = 1
     while True:
