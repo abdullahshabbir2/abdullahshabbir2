@@ -1,80 +1,125 @@
-<h1 align="center">Hi, I'm Abdullah Shabbir</h1>
+<div align="center">
 
-<p align="center">
-  <strong>IoT & Embedded Systems Engineer</strong><br>
-  From schematic and PCB layout to firmware, wireless connectivity, cloud, and dashboards.
+<h1>Hi, I'm Abdullah Shabbir 👋</h1>
+
+<a href="https://github.com/abdullahshabbir2">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=IoT+%26+Embedded+Systems+Engineer;Firmware+%E2%80%A2+PCB+Design+%E2%80%A2+Wireless+%E2%80%A2+Cloud;AUTOSAR+%7C+CAN+%7C+UDS+%7C+BLE+%7C+LoRa+%7C+MQTT;From+schematic+to+dashboard" alt="Typing SVG">
+</a>
+
+<p>
+  <strong>From schematic and PCB layout to firmware, wireless connectivity, cloud, and dashboards.</strong>
 </p>
 
-<p align="center">
-  Genoa, Italy |
-  <a href="mailto:abdullahshabbir2@gmail.com">abdullahshabbir2@gmail.com</a> |
-  <a href="https://linkedin.com/in/abdullahshabbir2">LinkedIn</a>
+<p>
+  <img alt="Location" src="https://img.shields.io/badge/Genoa,_Italy-1F2937?style=flat-square&logo=googlemaps&logoColor=white">
+  <img alt="Experience" src="https://img.shields.io/badge/3%2B_years-commercial_embedded-2563EB?style=flat-square">
+  <img alt="Study" src="https://img.shields.io/badge/M.Sc.-University_of_Genoa-0F766E?style=flat-square">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=abdullahshabbir2&style=flat-square&color=blueviolet&label=Profile+views">
 </p>
+
+<p>
+  <a href="mailto:abdullahshabbir2@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://linkedin.com/in/abdullahshabbir2"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/abdullahshabbir2"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
+
+</div>
 
 ---
 
 ## 💼 About Me
 
-🔧 I'm an <strong>IoT & Embedded Systems Engineer</strong> focused on building connected hardware products end to end.
+<table>
+<tr>
+<td width="60%" valign="top">
 
-📡 I specialize in <strong>ESP32, STM32, nRF52, BLE 5.0, GSM/GPRS, LoRa, MQTT, CAN, and RS485/Modbus</strong>.
+- 🔧 **IoT & Embedded Systems Engineer** building connected hardware products end to end
+- 📡 Specialized in **ESP32, STM32, nRF52, BLE 5.0, GSM/GPRS, LoRa, MQTT, CAN, and RS485/Modbus**
+- 🧠 Working across **firmware, PCB design, sensor integration, RTOS, cloud APIs, and dashboards**
+- 🚘 Growing into **automotive software**: AUTOSAR Classic, CAN/ISO-TP, and UDS diagnostics
+- 🎓 Pursuing an **M.Sc. in Internet and Multimedia Engineering** at the University of Genoa, Italy
+- 🚀 **3+ years** shipping commercial products in healthcare, smart home, EV, and environmental monitoring
+- 💬 Open to **embedded / IoT / automotive firmware** roles and collaborations
 
-🧠 I work across <strong>firmware, PCB design, sensor integration, RTOS systems, cloud APIs, and device dashboards</strong>.
+</td>
+<td width="40%" valign="top">
 
-🎓 Currently pursuing an <strong>M.Sc. in Internet and Multimedia Engineering</strong> at the University of Genoa, Italy.
+**⚡ At a glance**
 
-🚀 3+ years delivering commercial embedded products across healthcare, smart home, EV, and environmental-monitoring domains.
+| | |
+| --- | --- |
+| 🧩 Domains | Healthcare · Smart home · EV · Environment |
+| 🔌 MCUs | ESP32 · STM32 · nRF52840 |
+| 🧵 RTOS | FreeRTOS · Zephyr |
+| 🧪 Quality | Host unit tests · CI · static analysis |
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🧠 Expertise
 
-- 📦 <strong>Embedded Firmware:</strong> C, C++, ESP-IDF, FreeRTOS, Zephyr OS, bare-metal embedded C
-- 🔌 <strong>Microcontrollers:</strong> ESP32, ESP8266, STM32, nRF52840, ARM Cortex-M, Raspberry Pi
-- 📶 <strong>Wireless & Protocols:</strong> BLE 5.0, MQTT, GSM/GPRS/LTE, LoRa, CAN, RS485/Modbus, NFC
-- 🧩 <strong>PCB Design:</strong> EasyEDA schematic/layout, DRC, Gerbers, fabrication handoff, bring-up, RF-aware layouts
-- ☁️ <strong>Cloud & Backend:</strong> Python, FastAPI, Flask, AWS IoT Core, Azure IoT Hub, Home Assistant, ThingsBoard
-- 🛠️ <strong>Debug & Simulation:</strong> LTspice, oscilloscope, logic analyzer, JTAG/OpenOCD, PlatformIO
-- <strong>Automotive Diagnostics & Binary Analysis:</strong> CAN/ISO-TP and UDS lab implementations, executable inspection, checksum verification, constrained binary patching, and fault-injection testing
+| Area | Skills |
+| --- | --- |
+| 📦 **Embedded Firmware** | C, C++, ESP-IDF, FreeRTOS, Zephyr OS, bare-metal embedded C |
+| 🔌 **Microcontrollers** | ESP32, ESP8266, STM32, nRF52840, ARM Cortex-M, Raspberry Pi |
+| 📶 **Wireless & Protocols** | BLE 5.0, MQTT, GSM/GPRS/LTE, LoRa, CAN, RS485/Modbus, NFC |
+| 🧩 **PCB Design** | EasyEDA schematic/layout, DRC, Gerbers, fabrication handoff, bring-up, RF-aware layouts |
+| ☁️ **Cloud & Backend** | Python, FastAPI, Flask, AWS IoT Core, Azure IoT Hub, Home Assistant, ThingsBoard |
+| 🛠️ **Debug & Simulation** | LTspice, oscilloscope, logic analyzer, JTAG/OpenOCD, PlatformIO |
+| 🚘 **Automotive Diagnostics** | AUTOSAR Classic, CAN/ISO-TP, UDS, executable inspection, checksum verification, binary patching, fault injection |
 
 ---
 
 ## 🚀 Tech Stack
 
-<p>
-  <img alt="ESP32" src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white">
-  <img alt="STM32" src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white">
-  <img alt="nRF52" src="https://img.shields.io/badge/nRF52-00A9CE?style=for-the-badge&logo=nordicsemiconductor&logoColor=white">
-  <img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
-  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
-  <img alt="AUTOSAR" src="https://img.shields.io/badge/AUTOSAR_Classic-C8102E?style=for-the-badge">
-  <img alt="FreeRTOS" src="https://img.shields.io/badge/FreeRTOS-8CC84B?style=for-the-badge">
-  <img alt="Zephyr OS" src="https://img.shields.io/badge/Zephyr_OS-6A5ACD?style=for-the-badge">
-  <img alt="BLE" src="https://img.shields.io/badge/BLE_5.0-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white">
-  <img alt="MQTT" src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white">
-  <img alt="LoRa" src="https://img.shields.io/badge/LoRa-00AEEF?style=for-the-badge">
-  <img alt="CAN" src="https://img.shields.io/badge/CAN_Bus-FF6600?style=for-the-badge">
-  <img alt="AWS IoT" src="https://img.shields.io/badge/AWS_IoT_Core-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
-  <img alt="Home Assistant" src="https://img.shields.io/badge/Home_Assistant-41BDF5?style=for-the-badge&logo=homeassistant&logoColor=white">
-  <img alt="PlatformIO" src="https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=platformio&logoColor=white">
-  <img alt="EasyEDA" src="https://img.shields.io/badge/EasyEDA-1B6CA8?style=for-the-badge">
-</p>
+<div align="center">
 
-<p><strong>Automotive diagnostics & binary analysis (host-validated projects)</strong></p>
-<p>
-  <img alt="ISO-TP" src="https://img.shields.io/badge/ISO--TP-176B87?style=for-the-badge">
-  <img alt="UDS" src="https://img.shields.io/badge/UDS-005F73?style=for-the-badge">
-  <img alt="Binary Analysis" src="https://img.shields.io/badge/Binary_Analysis-5B4B8A?style=for-the-badge">
-  <img alt="GNU Binutils" src="https://img.shields.io/badge/GNU_Binutils-A42E2B?style=for-the-badge&logo=gnu&logoColor=white">
-  <img alt="CRC and SHA-256" src="https://img.shields.io/badge/CRC_%26_SHA--256-287271?style=for-the-badge">
-  <img alt="Fault Injection Testing" src="https://img.shields.io/badge/Fault_Injection_Testing-9B5D20?style=for-the-badge">
-</p>
+**Hardware & Firmware**
+
+<img alt="ESP32" src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white">
+<img alt="STM32" src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white">
+<img alt="nRF52" src="https://img.shields.io/badge/nRF52-00A9CE?style=for-the-badge&logo=nordicsemiconductor&logoColor=white">
+<img alt="FreeRTOS" src="https://img.shields.io/badge/FreeRTOS-8CC84B?style=for-the-badge">
+<img alt="Zephyr OS" src="https://img.shields.io/badge/Zephyr_OS-6A5ACD?style=for-the-badge">
+<img alt="AUTOSAR" src="https://img.shields.io/badge/AUTOSAR_Classic-C8102E?style=for-the-badge">
+<img alt="PlatformIO" src="https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=platformio&logoColor=white">
+<img alt="EasyEDA" src="https://img.shields.io/badge/EasyEDA-1B6CA8?style=for-the-badge">
+
+**Languages**
+
+<img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
+<img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+
+**Connectivity & Cloud**
+
+<img alt="BLE" src="https://img.shields.io/badge/BLE_5.0-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white">
+<img alt="MQTT" src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white">
+<img alt="LoRa" src="https://img.shields.io/badge/LoRa-00AEEF?style=for-the-badge">
+<img alt="CAN" src="https://img.shields.io/badge/CAN_Bus-FF6600?style=for-the-badge">
+<img alt="AWS IoT" src="https://img.shields.io/badge/AWS_IoT_Core-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
+<img alt="Home Assistant" src="https://img.shields.io/badge/Home_Assistant-41BDF5?style=for-the-badge&logo=homeassistant&logoColor=white">
+
+**Automotive Diagnostics & Binary Analysis**
+
+<img alt="ISO-TP" src="https://img.shields.io/badge/ISO--TP-176B87?style=for-the-badge">
+<img alt="UDS" src="https://img.shields.io/badge/UDS-005F73?style=for-the-badge">
+<img alt="Binary Analysis" src="https://img.shields.io/badge/Binary_Analysis-5B4B8A?style=for-the-badge">
+<img alt="GNU Binutils" src="https://img.shields.io/badge/GNU_Binutils-A42E2B?style=for-the-badge&logo=gnu&logoColor=white">
+<img alt="CRC and SHA-256" src="https://img.shields.io/badge/CRC_%26_SHA--256-287271?style=for-the-badge">
+<img alt="Fault Injection Testing" src="https://img.shields.io/badge/Fault_Injection_Testing-9B5D20?style=for-the-badge">
+
+</div>
 
 ---
 
 ## 📂 Projects
+
+### ⭐ Featured
 
 #### 🚘 [AUTOSAR EV Telematics & Odometry ECU](https://github.com/abdullahshabbir2/autosar-ev-telematics)
 
@@ -88,18 +133,23 @@ Writing the tests found four defects in code that had already been reviewed: a s
 
 `AUTOSAR Classic` `Embedded C` `ESP32` `FreeRTOS` `CAN` `RS485/Modbus` `ISO 14229 UDS` `Unit Testing` `GitHub Actions` `Doxygen`
 
-#### [ECU Programming Workbench](https://github.com/abdullahshabbir2/ecu-programming-workbench)
+<p align="right"><a href="https://github.com/abdullahshabbir2/autosar-ev-telematics"><img alt="View repository" src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white"></a></p>
+
+### 🚙 Automotive Diagnostics & Binary Analysis
+
+#### 🧪 [ECU Programming Workbench](https://github.com/abdullahshabbir2/ecu-programming-workbench)
 
 Python diagnostic-programming laboratory with a virtual ECU, classical CAN/ISO-TP transport, a UDS service subset, session handling, block transfers, integrity verification, and A/B image activation. Includes lost-acknowledgement recovery, voltage/RPM interlocks, interrupted-update tests, and recorded CAN/UDS traces. **36 automated tests** cover the host simulation; physical ECU flashing is outside its validated scope.
 
 `Python` `CAN` `ISO-TP` `UDS` `A/B Update Model` `CRC32` `SHA-256` `Fault Injection`
 
-#### [Strategy Patch Lab](https://github.com/abdullahshabbir2/strategy-patch-lab)
+#### 🧬 [Strategy Patch Lab](https://github.com/abdullahshabbir2/strategy-patch-lab)
 
 C++17 strategy model and owned-binary modification workflow for a Windows x86-64 host executable. Extracts calibration tables, applies a hash-checked instruction patch, corrects the PE checksum, compares baseline/patched behavior, and restores the exact original binary. Models map switching, ethanol fuel compensation, launch and shift torque limits with protection checks. Includes disassembly, address maps, **11 patch tests**, and a **421-step replay**. Validation uses an owned x86-64 image and synthetic inputs.
 
 `C++17` `Python` `Binary Analysis` `PE32+` `GNU objdump / nm` `Checksum Verification` `Regression Testing`
 
+### 📡 IoT & Embedded Products
 
 #### 💨 Smart Diffuser Platform
 
@@ -143,6 +193,8 @@ Bare-metal ESP32 firmware that drives a Quectel M95 GSM modem directly through A
 
 `ESP32` `C++` `AT Commands` `MQTT` `GSM/GPRS` `UART` `PlatformIO`
 
+### 🎓 Academic & Other
+
 #### 🧠 Parkinson's Monitoring System
 
 B.Sc. final-year project using wearable IMU edge nodes and a Raspberry Pi fog node. The edge nodes extracted tremor and gait features locally, reducing raw data transmission by more than 90% before BLE transfer to the classifier.
@@ -173,3 +225,30 @@ Java Swing desktop inventory system with MySQL-backed create, read, update, and 
 | --- | --- | --- |
 | M.Sc. Internet and Multimedia Engineering | University of Genoa, Italy | 2024 - Present |
 | B.Sc. Computer Engineering, FYP Distinction | COMSATS University Islamabad, Pakistan | 2019 - 2023 |
+
+---
+
+## 🔥 GitHub Stats
+
+<div align="center">
+
+<img height="180" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullahshabbir2&layout=compact&langs_count=6&theme=github_dark&hide_border=true&border_radius=10">
+<img height="180" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=abdullahshabbir2&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&border_radius=10">
+
+<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=abdullahshabbir2&theme=github-dark-blue&hide_border=true&border_radius=10">
+
+</div>
+
+---
+
+## 📫 Contact
+
+<div align="center">
+
+<a href="mailto:abdullahshabbir2@gmail.com"><img alt="Email" src="https://img.shields.io/badge/abdullahshabbir2@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://linkedin.com/in/abdullahshabbir2"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://github.com/abdullahshabbir2"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+
+<sub>Always happy to talk embedded systems, IoT products, and automotive firmware.</sub>
+
+</div>
