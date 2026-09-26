@@ -3,16 +3,18 @@
 <h1>Hi, I'm Abdullah Shabbir 👋</h1>
 
 <a href="https://github.com/abdullahshabbir2">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=620&lines=IoT+%26+Embedded+Systems+Engineer;Firmware+%E2%80%A2+PCB+Design+%E2%80%A2+Wireless+%E2%80%A2+Cloud;AUTOSAR+%7C+CAN+%7C+UDS+%7C+BLE+%7C+LoRa+%7C+MQTT;From+schematic+to+dashboard" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=640&lines=Embedded+Systems+%7C+IoT+%7C+Firmware+Engineer;Schematic+%E2%86%92+PCB+%E2%86%92+Firmware+%E2%86%92+Cloud;ESP32+%E2%80%A2+STM32+%E2%80%A2+nRF5340+%E2%80%A2+Yocto+Linux;Secure+boot+%E2%80%A2+Mutual+TLS+%E2%80%A2+Signed+OTA;AUTOSAR+%7C+CAN+%7C+UDS+%7C+BLE+%7C+LoRa+%7C+MQTT" alt="Typing SVG">
 </a>
 
 <p>
-  <strong>From schematic and PCB layout to firmware, wireless connectivity, cloud, and dashboards.</strong>
+  <strong>3+ years taking connected-device products from schematic and PCB layout through firmware, security, cloud integration, and field deployment.</strong>
 </p>
 
 <p>
   <img alt="Location" src="https://img.shields.io/badge/Genoa,_Italy-1F2937?style=flat-square&logo=googlemaps&logoColor=white">
-  <img alt="Experience" src="https://img.shields.io/badge/3%2B_years-commercial_embedded-2563EB?style=flat-square">
+  <img alt="Relocation" src="https://img.shields.io/badge/Open_to_relocation-EU-2563EB?style=flat-square">
+  <img alt="Products" src="https://img.shields.io/badge/10%2B-products_shipped-16A34A?style=flat-square">
+  <img alt="PCBs" src="https://img.shields.io/badge/8%2B-custom_PCBs-EA580C?style=flat-square">
   <img alt="Study" src="https://img.shields.io/badge/M.Sc.-University_of_Genoa-0F766E?style=flat-square">
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=abdullahshabbir2&style=flat-square&color=blueviolet&label=Profile+views">
 </p>
@@ -29,29 +31,49 @@
 
 ## 💼 About Me
 
+- 🔧 **Embedded Systems & IoT Engineer** who owns the whole product: requirements, architecture, hardware, firmware, cloud, and field deployment
+- 📦 Delivered **10+ embedded products end to end** across healthcare wearables, smart home, EV telemetry, and environmental monitoring
+- ⏱️ Real-time firmware on **FreeRTOS and Zephyr** with **sub-10 ms task jitter** and **sub-5 ms** battery-switching latency
+- 🔐 Ships secured devices: **secure boot, flash encryption, mutual TLS with X.509, secure elements, and signed OTA**
+- 🐧 Builds **Embedded Linux** gateways with **Yocto**: read-only rootfs, A/B updates, systemd-supervised daemons
+- 🚘 Working in **automotive software**: AUTOSAR Classic, CAN/ISO 11898, ISO-TP, UDS, MISRA C/C++, ISO 26262
+- 🎓 Completing an **M.Sc. in Internet & Multimedia Engineering** at the University of Genoa, Italy
+- 💬 Open to **embedded / IoT / automotive firmware** roles across the EU
+
+---
+
+## ⚡ At a Glance
+
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="50%" valign="top">
 
-- 🔧 **IoT & Embedded Systems Engineer** building connected hardware products end to end
-- 📡 Specialized in **ESP32, STM32, nRF52, BLE 5.0, GSM/GPRS, LoRa, MQTT, CAN, and RS485/Modbus**
-- 🧠 Working across **firmware, PCB design, sensor integration, RTOS, cloud APIs, and dashboards**
-- 🚘 Growing into **automotive software**: AUTOSAR Classic, CAN/ISO-TP, and UDS diagnostics
-- 🎓 Pursuing an **M.Sc. in Internet and Multimedia Engineering** at the University of Genoa, Italy
-- 🚀 **3+ years** shipping commercial products in healthcare, smart home, EV, and environmental monitoring
-- 💬 Open to **embedded / IoT / automotive firmware** roles and collaborations
+**🔌 Boards & MCUs I've shipped on**
+
+| Family | Parts |
+| --- | --- |
+| Espressif | ESP32, ESP8266 |
+| ST | STM32 F1, STM32 F4 |
+| Nordic | nRF52840, nRF5340 |
+| TI Sub-GHz | CC1312, CC1352P7 |
+| Linux / SBC | Raspberry Pi, qemuarm64 (Yocto) |
+| FPGA | Altera DE2 (Intel Quartus) |
+| Core | ARM Cortex-M (bare metal & HAL) |
 
 </td>
-<td width="40%" valign="top">
+<td width="50%" valign="top">
 
-**⚡ At a glance**
+**🧵 Systems & radios**
 
-| | |
+| Area | What I use |
 | --- | --- |
-| 🧩 Domains | Healthcare · Smart home · EV · Environment |
-| 🔌 MCUs | ESP32 · STM32 · nRF52840 |
-| 🧵 RTOS | FreeRTOS · Zephyr |
-| 🧪 Quality | Host unit tests · CI · static analysis |
+| RTOS / OS | FreeRTOS, Zephyr, Embedded Linux, Yocto |
+| Short range | BLE 5.0, Wi-Fi, NFC (PN7160), UWB (DW3110) |
+| Long range | LoRa (SX1262), 868 MHz sub-GHz, GSM/LTE, LTE-M |
+| Wired / field | CAN/CANopen, RS485/Modbus, Ethernet, OPC-UA |
+| On-board | UART, I2C, SPI, JTAG/SWD |
+| Cloud | AWS IoT Core, Azure IoT Hub, ThingsBoard, OpenRemote |
+| Quality | Host unit tests, GitHub Actions CI, MISRA, cppcheck |
 
 </td>
 </tr>
@@ -59,17 +81,33 @@
 
 ---
 
+## 🔐 Device & MQTT Security
+
+Security is designed in from the first board revision, not bolted on at release.
+
+| Layer | What I implement |
+| --- | --- |
+| 🔑 **Transport** | MQTT over **mutual TLS** with per-device **X.509 client certificates** on AWS IoT Core and Azure IoT Hub |
+| 🗝️ **Key storage** | Device keys held in **hardware secure elements (NXP SE050)** |
+| 🧾 **Messaging** | Structured **MQTT topic architectures** and **device-shadow synchronisation** across AWS IoT, Azure IoT Hub, ThingsBoard, and OpenRemote |
+| 🛡️ **Boot & storage** | **Secure boot** and **flash encryption** so the device only runs signed images and firmware cannot be extracted |
+| 📦 **Updates** | **Signed OTA pipelines**; A/B image-swap updates on Embedded Linux gateways |
+| 📐 **Practice** | **IEC 62443** principles, CE/RED design guidance, credential-hygiene checks in CI |
+
+---
+
 ## 🧠 Expertise
 
 | Area | Skills |
 | --- | --- |
-| 📦 **Embedded Firmware** | C, C++, ESP-IDF, FreeRTOS, Zephyr OS, bare-metal embedded C |
-| 🔌 **Microcontrollers** | ESP32, ESP8266, STM32, nRF52840, ARM Cortex-M, Raspberry Pi |
-| 📶 **Wireless & Protocols** | BLE 5.0, MQTT, GSM/GPRS/LTE, LoRa, CAN, RS485/Modbus, NFC |
-| 🧩 **PCB Design** | EasyEDA schematic/layout, DRC, Gerbers, fabrication handoff, bring-up, RF-aware layouts |
-| ☁️ **Cloud & Backend** | Python, FastAPI, Flask, AWS IoT Core, Azure IoT Hub, Home Assistant, ThingsBoard |
-| 🛠️ **Debug & Simulation** | LTspice, oscilloscope, logic analyzer, JTAG/OpenOCD, PlatformIO |
-| 🚘 **Automotive Diagnostics** | AUTOSAR Classic, CAN/ISO-TP, UDS, executable inspection, checksum verification, binary patching, fault injection |
+| 📦 **Embedded Firmware** | C, C++, ESP-IDF, FreeRTOS, Zephyr OS, bare-metal C, HAL, device drivers, bootloaders |
+| 🐧 **Embedded Linux** | Yocto Project, custom layers, read-only rootfs, A/B image updates, systemd services and watchdog, QEMU |
+| 📶 **Wireless & Protocols** | BLE 5.0, Wi-Fi, MQTT, HTTP/REST, GSM/LTE, LTE-M, LoRa, UWB, 868 MHz, NFC, CAN/CANopen, RS485/Modbus, OPC-UA |
+| 🧩 **PCB & Circuits** | EasyEDA, multi-layer and RF-aware layout, multi-rail PMIC power trees, analog front ends, inverter design, DRC, Gerbers, bring-up, DFM |
+| ☁️ **Cloud & Apps** | Python, FastAPI, Flask, AWS IoT Core, AWS Lambda, Azure IoT Hub, ThingsBoard, OpenRemote, Home Assistant, Flutter BLE apps, Docker |
+| 🔬 **FPGA & HDL** | VHDL, Intel Quartus, RTL simulation, finite state machine design, RISC datapath |
+| 🛠️ **Debug & Tools** | Oscilloscope, logic analyser, JTAG/SWD, OpenOCD, LTspice, Keil MDK, STM32CubeIDE, Zephyr west, CMake, PlatformIO |
+| 🚘 **Automotive & Standards** | AUTOSAR Classic, ISO 11898, ISO-TP, UDS, MISRA C, MISRA C++ / AUTOSAR C++14, ISO 26262, binary analysis, fault injection |
 
 ---
 
@@ -87,6 +125,19 @@
 <img alt="AUTOSAR" src="https://img.shields.io/badge/AUTOSAR_Classic-C8102E?style=for-the-badge">
 <img alt="PlatformIO" src="https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=platformio&logoColor=white">
 <img alt="EasyEDA" src="https://img.shields.io/badge/EasyEDA-1B6CA8?style=for-the-badge">
+<img alt="STM32CubeIDE" src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white">
+<img alt="Keil MDK" src="https://img.shields.io/badge/Keil_MDK-394E79?style=for-the-badge&logo=arm&logoColor=white">
+<img alt="LTspice" src="https://img.shields.io/badge/LTspice-A10035?style=for-the-badge&logo=analogdevices&logoColor=white">
+
+**Embedded Linux & FPGA**
+
+<img alt="Embedded Linux" src="https://img.shields.io/badge/Embedded_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+<img alt="Yocto" src="https://img.shields.io/badge/Yocto_Project-1B75BB?style=for-the-badge&logo=yoctoproject&logoColor=white">
+<img alt="systemd" src="https://img.shields.io/badge/systemd-201A26?style=for-the-badge">
+<img alt="QEMU" src="https://img.shields.io/badge/QEMU-FF6600?style=for-the-badge&logo=qemu&logoColor=white">
+<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img alt="VHDL" src="https://img.shields.io/badge/VHDL-4B0082?style=for-the-badge">
+<img alt="Intel Quartus" src="https://img.shields.io/badge/Intel_Quartus-0071C5?style=for-the-badge&logo=intel&logoColor=white">
 
 **Languages**
 
@@ -94,6 +145,8 @@
 <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
 <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+<img alt="Dart" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
+<img alt="MATLAB" src="https://img.shields.io/badge/MATLAB-E16737?style=for-the-badge">
 
 **Connectivity & Cloud**
 
@@ -103,8 +156,24 @@
 <img alt="CAN" src="https://img.shields.io/badge/CAN_Bus-FF6600?style=for-the-badge">
 <img alt="AWS IoT" src="https://img.shields.io/badge/AWS_IoT_Core-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
 <img alt="Home Assistant" src="https://img.shields.io/badge/Home_Assistant-41BDF5?style=for-the-badge&logo=homeassistant&logoColor=white">
+<img alt="Azure IoT Hub" src="https://img.shields.io/badge/Azure_IoT_Hub-0078D4?style=for-the-badge">
+<img alt="ThingsBoard" src="https://img.shields.io/badge/ThingsBoard-305680?style=for-the-badge">
+<img alt="OpenRemote" src="https://img.shields.io/badge/OpenRemote-4E9D2D?style=for-the-badge">
+<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
+<img alt="UWB" src="https://img.shields.io/badge/UWB-7A3E9D?style=for-the-badge">
+<img alt="Sub-GHz" src="https://img.shields.io/badge/Sub--GHz_868_MHz-B5179E?style=for-the-badge">
+<img alt="LTE-M" src="https://img.shields.io/badge/LTE--M-E4002B?style=for-the-badge">
+<img alt="OPC-UA" src="https://img.shields.io/badge/OPC--UA-2E7D32?style=for-the-badge">
 
-**Automotive Diagnostics & Binary Analysis**
+**Security**
+
+<img alt="Mutual TLS" src="https://img.shields.io/badge/Mutual_TLS_(X.509)-2B2D42?style=for-the-badge&logo=letsencrypt&logoColor=white">
+<img alt="Secure Boot" src="https://img.shields.io/badge/Secure_Boot-8D0801?style=for-the-badge">
+<img alt="Flash Encryption" src="https://img.shields.io/badge/Flash_Encryption-5C415D?style=for-the-badge">
+<img alt="Signed OTA" src="https://img.shields.io/badge/Signed_OTA-1D3557?style=for-the-badge">
+<img alt="NXP SE050" src="https://img.shields.io/badge/NXP_SE050-F0B323?style=for-the-badge&logo=nxp&logoColor=black">
+
+**Automotive, Standards & Binary Analysis**
 
 <img alt="ISO-TP" src="https://img.shields.io/badge/ISO--TP-176B87?style=for-the-badge">
 <img alt="UDS" src="https://img.shields.io/badge/UDS-005F73?style=for-the-badge">
@@ -112,8 +181,32 @@
 <img alt="GNU Binutils" src="https://img.shields.io/badge/GNU_Binutils-A42E2B?style=for-the-badge&logo=gnu&logoColor=white">
 <img alt="CRC and SHA-256" src="https://img.shields.io/badge/CRC_%26_SHA--256-287271?style=for-the-badge">
 <img alt="Fault Injection Testing" src="https://img.shields.io/badge/Fault_Injection_Testing-9B5D20?style=for-the-badge">
+<img alt="MISRA C" src="https://img.shields.io/badge/MISRA_C%2FC%2B%2B-3A506B?style=for-the-badge">
+<img alt="ISO 26262" src="https://img.shields.io/badge/ISO_26262-1F4E79?style=for-the-badge">
 
 </div>
+
+---
+
+## 💼 Experience
+
+| Role | Company | Period |
+| --- | --- | --- |
+| 🧑‍💻 **Freelance IoT & Embedded Systems Engineer** | Self-employed · Remote (EU / US / West Africa) | Jul 2024 – Present |
+| ⚡ **Embedded Systems Engineer** (contract) | LUMS Energy Institute, Pakistan | Oct 2024 – Nov 2024 |
+| 📡 **IoT Engineer** | Digitalux, Pakistan | Jul 2023 – Nov 2024 |
+| 🔧 **Embedded Systems Intern** | KICS, UET, Pakistan | Jul 2022 – Sep 2022 |
+| 🏭 **Engineering Intern** | Pak Elektron Limited (PEL), Pakistan | Aug 2021 – Sep 2021 |
+
+<details>
+<summary><strong>Highlights</strong></summary>
+
+- **Freelance:** 10+ products end to end, 8+ custom PCBs, multi-protocol stacks chosen against power, range, and bandwidth, fielded devices secured with secure boot, mutual TLS, and secure elements, signed OTA pipelines
+- **LUMS Energy Institute:** ESP-IDF firmware for an EV battery monitoring and control unit (CAN telemetry, GPS, fail-safe switching) and a PZEM-004T RS485/Modbus smart energy meter, both with GSM/MQTT uplink to AWS
+- **Digitalux:** ESP32/ESP8266 firmware for commercial products shipped to customers, MQTT topic design, device shadows, and OTA on AWS IoT, Azure IoT Hub, ThingsBoard, and OpenRemote; introduced a DFM checklist that cut board re-spins
+- **KICS, UET:** UART, I2C, and SPI drivers and HAL work on ARM Cortex-M, sensor-node pipelines to AWS IoT Core
+
+</details>
 
 ---
 
@@ -151,23 +244,35 @@ C++17 strategy model and owned-binary modification workflow for a Windows x86-64
 
 ### 📡 IoT & Embedded Products
 
-#### 💨 Smart Diffuser Platform
+#### 🩺 Low-Power Medical Monitoring Wearable
 
-Multi-voltage 3V/5V/12V PCB variants from a shared schematic, with ESP-IDF and FreeRTOS firmware for motor control, limit-switch feedback, RTC-based offline scheduling, and BLE 5.0 transfer with acknowledgements, retries, and chunking.
+Firmware and hardware lead on a **39 mm coin-form-factor wearable** on a 4-layer PCB. Designed a multi-rail PMIC power tree feeding the SoC, optical and bio-impedance AFEs, IMU, and a secure element, with **LTE-M** on a daughter board. Zephyr firmware runs continuous SpO2/HR acquisition with sensor fusion to suppress motion artifacts, against a **sub-15 uA deep-sleep target** and 5 s wake-acquire-transmit cycles. PMIC recovery audited across 8 power and fault transitions before BOM lock.
 
-`ESP32` `ESP-IDF` `FreeRTOS` `BLE 5.0` `EasyEDA` `C`
+`nRF5340` `Zephyr OS` `LTE-M` `BLE 5.0` `PMIC` `Secure Element` `Low Power` `4-layer PCB`
 
 #### 🚗 EV Battery Monitoring & Control System
 
-FreeRTOS-based battery telemetry and switching control over CAN bus, with GSM cloud uplink, GPS tracking, RS485/Modbus metering, and safe fail-state handling for battery-side control logic.
+CAN telemetry to **ISO 11898 at 500 kbps** for cell and vehicle data, with FreeRTOS priority-partitioned tasks holding battery switching logic at **sub-5 ms latency**. Control firmware written to **MISRA C++ / AUTOSAR C++14** guidelines: no runtime allocation, bounded loops, deterministic state transitions. GPS tracking, RS485/Modbus metering, and GSM/MQTT cloud uplink, validated on vehicle hardware.
 
-`STM32` `FreeRTOS` `CAN` `GSM` `GPS` `RS485` `Modbus` `C`
+`STM32` `ESP32` `C++` `FreeRTOS` `CAN / ISO 11898` `RS485/Modbus` `GSM` `MQTT` `MISRA C++`
 
-#### 👶 Infant Monitoring Wearable
+#### 💨 Smart Diffuser Platform
 
-nRF52840 and Zephyr OS wearable for continuous infant SpO2/HR and IMU monitoring. The design combined low-power firmware, BLE streaming, motion-aware signal processing, and a deep-sleep power profile below 15 uA average.
+3V/5V/12V PCB variants from a shared schematic, taken through fabrication, bring-up, and a **production batch with zero field failures**. Custom 12V DC-to-AC converter (CD40106/CD4013 oscillator, MOSFET H-bridge, dead-time generation, TVS protection) and a non-contact liquid level sensing PCB. ESP-IDF/FreeRTOS firmware with ACK-based BLE 5.0 transfer, a companion **Flutter** app, and hardening with **secure boot, TLS, and signed OTA**.
 
-`nRF52840` `Zephyr OS` `BLE 5.0` `PPG` `IMU` `Low Power` `C`
+`ESP32` `ESP-IDF` `FreeRTOS` `BLE 5.0` `Secure Boot` `Signed OTA` `Flutter` `EasyEDA` `Analog Design`
+
+#### 🐦 Bird Tracking Tag
+
+Sub-30 g PCB integrating **LoRa (SX1262), UWB (DW3110), GPS, and GSM** with separated antennas, keep-out zones, and ground stitching. Firmware picks LoRa or GSM adaptively from signal quality and battery state and deep-sleeps between fixes; a formal power budget showed gateway density as the dominant battery-life variable.
+
+`ESP32` `LoRa` `UWB` `GPS` `GSM` `RF PCB` `Power Budget`
+
+#### 📻 Sub-GHz Sensor Network & Gateway
+
+Shared **868 MHz** network where coin-cell sensor nodes report to a common hub that relays to the cloud, reusing one radio infrastructure across product lines. Selected CC1312 and dual-band CC1352P7 against size, power, and cost.
+
+`TI CC1312` `CC1352P7` `868 MHz` `Coin Cell` `Gateway`
 
 #### 🌬️ [Smart Air Purifier & Air Quality Monitor](https://github.com/abdullahshabbir2/AirPurifier)
 
@@ -181,6 +286,12 @@ Dual-node ESP32 greenhouse automation system with independent local dashboards, 
 
 `ESP32` `C++` `PlatformIO` `REST API` `mDNS` `NVS` `Watchdog` `IoT Dashboard`
 
+#### 💧 Hydroponic Monitoring System
+
+STM32 hydroponic monitoring with high-precision water chemistry and environmental sensing, including analog front-end conditioning and calibration where sensor drift directly affects crop outcomes.
+
+`STM32` `Analog Front End` `Sensor Calibration`
+
 #### 🚰 [Smart Cistern & Irrigation Controller](https://github.com/abdullahshabbir2/home-assistant-cistern-integration)
 
 Custom Home Assistant integration plus ESP32 firmware for cistern monitoring, relay control, irrigation scheduling, telemetry polling, Zeroconf discovery, coordinator-based updates, and Lovelace dashboard entities.
@@ -193,13 +304,27 @@ Bare-metal ESP32 firmware that drives a Quectel M95 GSM modem directly through A
 
 `ESP32` `C++` `AT Commands` `MQTT` `GSM/GPRS` `UART` `PlatformIO`
 
+### 🐧 Embedded Linux
+
+#### 🧱 meta-iot-gateway — Yocto Linux Layer
+
+Custom Yocto image booted on **qemuarm64** with a read-only rootfs, writable state overlay, **A/B image-swap updates**, and no package manager on target. A C daemon validates **CRC-16/CCITT** UART frames and republishes them to MQTT, with systemd watchdog integration and exponential reconnect backoff.
+
+`Yocto` `Embedded Linux` `systemd` `QEMU` `C` `MQTT` `A/B Updates`
+
 ### 🎓 Academic & Other
 
 #### 🧠 Parkinson's Monitoring System
 
-B.Sc. final-year project using wearable IMU edge nodes and a Raspberry Pi fog node. The edge nodes extracted tremor and gait features locally, reducing raw data transmission by more than 90% before BLE transfer to the classifier.
+B.Sc. final-year project (graduated with Distinction) using wearable IMU edge nodes and a Raspberry Pi fog node. The edge nodes extracted tremor and gait features locally, reducing raw data transmission by more than 90% before BLE transfer to the classifier.
 
 `nRF52` `BLE 5.0` `Raspberry Pi` `Python` `IMU` `Edge ML`
+
+#### 🔲 Digital Design on FPGA
+
+Basic **RISC processor in VHDL** (fetch, decode, execute datapath with register file and control unit) verified in simulation and on the DE2 board, plus FSM controllers for a vending machine and home automation system.
+
+`VHDL` `Intel Quartus` `Altera DE2` `RTL Simulation` `FSM`
 
 #### 🛒 [Grocery Warehouse Inventory System](https://github.com/abdullahshabbir2/Grocery-WareHouse)
 
@@ -211,20 +336,25 @@ Java Swing desktop inventory system with MySQL-backed create, read, update, and 
 
 ## 🖨️ PCB Design Highlights
 
-- 📦 Multi-voltage product boards with shared schematics and hardware-selectable power paths
-- 📶 NFC layouts with RF keepout zones, impedance-aware routing, and ground-plane control
-- 🛰️ Compact GPS + LoRa/GSM tracker PCB design under 30 g
-- ⌚ Wearable PCB layouts with miniaturized power management and PPG/IMU sensor interfaces
-- 🔬 Power-supply and analog signal-path verification with LTspice
+- 📦 **8+ custom PCBs** with multi-voltage 3V/5V/12V power architectures and hardware-selectable power paths
+- 🔋 Multi-rail **PMIC power trees** for wearables feeding SoC, optical/bio-impedance AFEs, IMU, and secure element
+- 📶 NFC and multi-radio layouts with RF keep-out zones, impedance-aware routing, and ground stitching
+- 🛰️ Sub-30 g GPS + LoRa + UWB + GSM tracker PCB
+- ⚡ 12V DC-to-AC inverter with MOSFET H-bridge, dead-time generation, TVS protection, and fusing
+- 🔬 Power-supply and analog signal-path verification in LTspice; DFM checklist that reduced re-spins
 
 ---
 
-## 🎓 Education
+## 🎓 Education & Certifications
 
-| Degree | Institution | Year |
+| | | |
 | --- | --- | --- |
-| M.Sc. Internet and Multimedia Engineering | University of Genoa, Italy | 2024 - Present |
-| B.Sc. Computer Engineering, FYP Distinction | COMSATS University Islamabad, Pakistan | 2019 - 2023 |
+| 🎓 **M.Sc. Internet & Multimedia Engineering** | University of Genoa, Italy | 2024 – 2026 (expected) |
+| 🎓 **B.Sc. Computer Engineering**, graduated with Distinction | COMSATS University Islamabad, Pakistan | 2019 – 2023 |
+| 📜 **ISO 26262: Essentials of Automotive Functional Safety** | Alison (CPD certified) | Sep 2026 |
+| 📜 **Registered Computer Engineer** | Pakistan Engineering Council | Jan 2024 |
+
+🗣️ **Languages:** English (C1, professional) · Urdu (native) · Italian (A1, working toward B2)
 
 ---
 
@@ -232,8 +362,10 @@ Java Swing desktop inventory system with MySQL-backed create, read, update, and 
 
 <div align="center">
 
-<img height="180" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullahshabbir2&layout=compact&langs_count=6&theme=github_dark&hide_border=true&border_radius=10">
-<img height="180" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=abdullahshabbir2&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&border_radius=10">
+<img height="170" alt="GitHub stats" src="./profile-summary-card-output/github_dark/3-stats.svg">
+<img height="170" alt="Most committed languages" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg">
+
+<img alt="Contribution profile" src="./profile-summary-card-output/github_dark/0-profile-details.svg">
 
 <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=abdullahshabbir2&theme=github-dark-blue&hide_border=true&border_radius=10">
 
@@ -249,6 +381,6 @@ Java Swing desktop inventory system with MySQL-backed create, read, update, and 
 <a href="https://linkedin.com/in/abdullahshabbir2"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://github.com/abdullahshabbir2"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
-<sub>Always happy to talk embedded systems, IoT products, and automotive firmware.</sub>
+<sub>Always happy to talk embedded systems, IoT security, and automotive firmware.</sub>
 
 </div>
