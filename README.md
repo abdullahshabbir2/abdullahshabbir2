@@ -3,7 +3,7 @@
 <h1>Hi, I'm Abdullah Shabbir 👋</h1>
 
 <a href="https://github.com/abdullahshabbir2">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=640&lines=Embedded+Systems+%7C+IoT+%7C+Firmware+Engineer;Schematic+%E2%86%92+PCB+%E2%86%92+Firmware+%E2%86%92+Cloud;ESP32+%E2%80%A2+STM32+%E2%80%A2+nRF5340+%E2%80%A2+Yocto+Linux;Secure+boot+%E2%80%A2+Mutual+TLS+%E2%80%A2+Signed+OTA;AUTOSAR+%7C+CAN+%7C+UDS+%7C+BLE+%7C+LoRa+%7C+MQTT" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=640&lines=Embedded+Systems+%7C+IoT+%7C+Firmware+Engineer;Schematic+%E2%86%92+PCB+%E2%86%92+Firmware+%E2%86%92+Cloud;ESP32+%E2%80%A2+STM32+%E2%80%A2+nRF5340+%E2%80%A2+nRF52840+%E2%80%A2+Yocto;Secure+boot+%E2%80%A2+Mutual+TLS+%E2%80%A2+Signed+OTA;AUTOSAR+%7C+CAN+%7C+UDS+%7C+BLE+%7C+LoRa+%7C+MQTT" alt="Typing SVG">
 </a>
 
 <p>
@@ -32,6 +32,7 @@
 ## 💼 About Me
 
 - 🔧 **Embedded Systems & IoT Engineer** who owns the whole product: requirements, architecture, hardware, firmware, cloud, and field deployment
+- 🧩 Hands-on across many boards: **Nordic nRF5340 & nRF52840 (and their DKs)**, ESP32, STM32, TI CC13xx, Raspberry Pi, and my own custom PCBs
 - ⏱️ Real-time firmware on **FreeRTOS and Zephyr** with **sub-10 ms task jitter** and **sub-5 ms** battery-switching latency
 - 🐧 Builds **Embedded Linux** gateways with **Yocto**: read-only rootfs, A/B updates, systemd-supervised daemons
 - 🚘 Working in **automotive software**: AUTOSAR Classic, CAN/ISO 11898, ISO-TP, UDS, MISRA C/C++, ISO 26262
@@ -46,13 +47,13 @@
 <tr>
 <td width="50%" valign="top">
 
-**🔌 Boards & MCUs I've shipped on**
+**🔌 Boards, MCUs & dev kits I've built on**
 
-| Family | Parts |
+| Family | Chips & boards |
 | --- | --- |
+| Nordic | **nRF5340** (dual-core, Zephyr), **nRF52840**, nRF5340 DK, nRF52840 DK |
 | Espressif | ESP32, ESP8266 |
 | ST | STM32 F1, STM32 F4 |
-| Nordic | nRF52840, nRF5340 |
 | TI Sub-GHz | CC1312, CC1352P7 |
 | Linux / SBC | Raspberry Pi, qemuarm64 (Yocto) |
 | FPGA | Altera DE2 (Intel Quartus) |
@@ -114,7 +115,11 @@ Security is designed in from the first board revision, not bolted on at release.
 
 <img alt="ESP32" src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white">
 <img alt="STM32" src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white">
-<img alt="nRF52" src="https://img.shields.io/badge/nRF52-00A9CE?style=for-the-badge&logo=nordicsemiconductor&logoColor=white">
+<img alt="nRF52840" src="https://img.shields.io/badge/nRF52840-00A9CE?style=for-the-badge&logo=nordicsemiconductor&logoColor=white">
+<img alt="nRF5340" src="https://img.shields.io/badge/nRF5340-00A9CE?style=for-the-badge&logo=nordicsemiconductor&logoColor=white">
+<img alt="Nordic DKs" src="https://img.shields.io/badge/nRF52840_%26_nRF5340_DK-0B3D5C?style=for-the-badge&logo=nordicsemiconductor&logoColor=white">
+<img alt="Raspberry Pi" src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white">
+<img alt="TI CC13xx" src="https://img.shields.io/badge/TI_CC1312%2FCC1352-CC0000?style=for-the-badge&logo=texasinstruments&logoColor=white">
 <img alt="FreeRTOS" src="https://img.shields.io/badge/FreeRTOS-8CC84B?style=for-the-badge">
 <img alt="Zephyr OS" src="https://img.shields.io/badge/Zephyr_OS-6A5ACD?style=for-the-badge">
 <img alt="AUTOSAR" src="https://img.shields.io/badge/AUTOSAR_Classic-C8102E?style=for-the-badge">
