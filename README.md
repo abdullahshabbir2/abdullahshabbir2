@@ -34,7 +34,7 @@
 - 🔧 **Embedded Systems & IoT Engineer** who owns the whole product: requirements, architecture, hardware, firmware, cloud, and field deployment
 - 📦 Delivered **10+ embedded products end to end** across healthcare wearables, smart home, EV telemetry, and environmental monitoring
 - ⏱️ Real-time firmware on **FreeRTOS and Zephyr** with **sub-10 ms task jitter** and **sub-5 ms** battery-switching latency
-- 🔐 Ships secured devices: **secure boot, flash encryption, mutual TLS with X.509, secure elements, and signed OTA**
+- 🔐 Ships secured devices: **secure boot, flash encryption, mutual TLS with X.509, certificate pinning, per-device MQTT topic permissions, secure elements, and signed OTA**
 - 🐧 Builds **Embedded Linux** gateways with **Yocto**: read-only rootfs, A/B updates, systemd-supervised daemons
 - 🚘 Working in **automotive software**: AUTOSAR Classic, CAN/ISO 11898, ISO-TP, UDS, MISRA C/C++, ISO 26262
 - 🎓 Completing an **M.Sc. in Internet & Multimedia Engineering** at the University of Genoa, Italy
@@ -87,9 +87,10 @@ Security is designed in from the first board revision, not bolted on at release.
 
 | Layer | What I implement |
 | --- | --- |
-| 🔑 **Transport** | MQTT over **mutual TLS** with per-device **X.509 client certificates** on AWS IoT Core and Azure IoT Hub |
+| 🔑 **Transport** | MQTT over **mutual TLS** with per-device **X.509 client certificates** and **server certificate pinning** on AWS IoT Core and Azure IoT Hub |
 | 🗝️ **Key storage** | Device keys held in **hardware secure elements (NXP SE050)** |
-| 🧾 **Messaging** | Structured **MQTT topic architectures** and **device-shadow synchronisation** across AWS IoT, Azure IoT Hub, ThingsBoard, and OpenRemote |
+| 🧾 **Authorisation** | **Per-device topic permissions**: each device may publish and subscribe only on its own topics, enforced by broker policies tied to its certificate identity |
+| 📨 **Messaging** | Structured **MQTT topic architectures** and **device-shadow synchronisation** across AWS IoT, Azure IoT Hub, ThingsBoard, and OpenRemote |
 | 🛡️ **Boot & storage** | **Secure boot** and **flash encryption** so the device only runs signed images and firmware cannot be extracted |
 | 📦 **Updates** | **Signed OTA pipelines**; A/B image-swap updates on Embedded Linux gateways |
 | 📐 **Practice** | **IEC 62443** principles, CE/RED design guidance, credential-hygiene checks in CI |
@@ -171,6 +172,8 @@ Security is designed in from the first board revision, not bolted on at release.
 <img alt="Secure Boot" src="https://img.shields.io/badge/Secure_Boot-8D0801?style=for-the-badge">
 <img alt="Flash Encryption" src="https://img.shields.io/badge/Flash_Encryption-5C415D?style=for-the-badge">
 <img alt="Signed OTA" src="https://img.shields.io/badge/Signed_OTA-1D3557?style=for-the-badge">
+<img alt="Certificate Pinning" src="https://img.shields.io/badge/Certificate_Pinning-3D5A80?style=for-the-badge">
+<img alt="MQTT Topic ACLs" src="https://img.shields.io/badge/MQTT_Topic_ACLs-660066?style=for-the-badge&logo=mqtt&logoColor=white">
 <img alt="NXP SE050" src="https://img.shields.io/badge/NXP_SE050-F0B323?style=for-the-badge&logo=nxp&logoColor=black">
 
 **Automotive, Standards & Binary Analysis**
