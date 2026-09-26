@@ -5,9 +5,17 @@ the user owns, so C++ inside a repo whose primary language is C still counts.
 Uses STATS_TOKEN (a personal token) when set to include the user's private
 repos, otherwise GITHUB_TOKEN and public repos only. Collaborator and
 organisation repos are left out because their totals include other people's code.
+
+GitHub counts most `.h` headers as C. In a repo that also has C++ sources
+(.cpp, .cc, .cxx, .hpp, .hh, .ino), this script re-counts that repo's
+non-vendored `.h` bytes as C++. Only totals are printed, never repo names,
+because Actions logs on a public repo are public.
 """
 import json
 import os
+import re
+import urllib.error
+import urllib.parse
 import urllib.request
 
 USER = os.environ["USERNAME"]
@@ -17,6 +25,11 @@ EXCLUDE = {"HTML", "CSS", "Jupyter Notebook", "Makefile", "CMake", "Shell",
            "Batchfile", "PowerShell", "Dockerfile", "Linker Script", "Assembly",
            # Companion-app and web code; the card shows firmware languages.
            "Dart", "TypeScript", "JavaScript", "Swift", "Kotlin", "Objective-C", "Procfile"}
+CPP_SOURCES = (".cpp", ".cc", ".cxx", ".hpp", ".hh", ".hxx", ".ino")
+# Third-party trees GitHub's language stats also treat as vendored.
+VENDORED = re.compile(r"(^|/)(build|managed_components|components/[^/]*-idf|vendor|"
+                      r"third_party|thirdparty|external|extern|deps|\.pio|"
+                      r"Drivers|Middlewares|nrfx|nRF5_SDK[^/]*|sdk)/", re.I)
 TOP = 8
 COLORS = {"C": "#555555", "C++": "#f34b7d", "Python": "#3572A5", "Java": "#b07219",
           "GDScript": "#355570", "VHDL": "#adb2cb", "Dart": "#00B4AB",
@@ -43,13 +56,34 @@ def repos():
         page += 1
 
 
+def cpp_headers(repo):
+    """Bytes of the repo's own .h files if the repo also has C++ sources."""
+    ref = urllib.parse.quote(repo["default_branch"], safe="")
+    try:
+        tree = get(f"{repo['url']}/git/trees/{ref}?recursive=1")["tree"]
+    except urllib.error.HTTPError:  # empty repo
+        return 0
+    files = [f for f in tree if f["type"] == "blob" and not VENDORED.search(f["path"])]
+    if not any(f["path"].lower().endswith(CPP_SOURCES) for f in files):
+        return 0
+    return sum(f.get("size", 0) for f in files if f["path"].endswith(".h"))
+
+
 totals = {}
+moved = 0
 for repo in repos():
     if repo["fork"] or repo["archived"]:
         continue
-    for lang, size in get(repo["languages_url"]).items():
-        if lang not in EXCLUDE:
+    langs = get(repo["languages_url"])
+    shift = min(cpp_headers(repo), langs.get("C", 0)) if "C" in langs else 0
+    if shift:
+        langs["C"] -= shift
+        langs["C++"] = langs.get("C++", 0) + shift
+        moved += shift
+    for lang, size in langs.items():
+        if lang not in EXCLUDE and size:
             totals[lang] = totals.get(lang, 0) + size
+print(f"Re-counted {moved} bytes of .h headers in C++ repos as C++")
 
 ranked = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)[:TOP]
 total = sum(size for _, size in ranked) or 1
