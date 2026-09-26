@@ -11,6 +11,7 @@ on:
     branches: [main]
     paths:
       - .github/workflows/profile-cards.yml
+      - scripts/top_langs.py
 
 permissions:
   contents: write
@@ -20,6 +21,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Build language card from code size
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 scripts/top_langs.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/top-langs.svg
+          git diff --cached --quiet || git commit -m "Update language card"
+          git push
 
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
