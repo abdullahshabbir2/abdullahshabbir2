@@ -14,7 +14,9 @@ USER = os.environ["USERNAME"]
 TOKEN = os.environ.get("STATS_TOKEN") or os.environ["GITHUB_TOKEN"]
 PRIVATE = bool(os.environ.get("STATS_TOKEN"))
 EXCLUDE = {"HTML", "CSS", "Jupyter Notebook", "Makefile", "CMake", "Shell",
-           "Batchfile", "PowerShell", "Dockerfile", "Linker Script", "Assembly"}
+           "Batchfile", "PowerShell", "Dockerfile", "Linker Script", "Assembly",
+           # Companion-app and web code; the card shows firmware languages.
+           "Dart", "TypeScript", "JavaScript", "Swift", "Kotlin", "Objective-C"}
 TOP = 8
 COLORS = {"C": "#555555", "C++": "#f34b7d", "Python": "#3572A5", "Java": "#b07219",
           "GDScript": "#355570", "VHDL": "#adb2cb", "Dart": "#00B4AB",
