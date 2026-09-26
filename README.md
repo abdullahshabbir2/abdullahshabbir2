@@ -84,8 +84,9 @@ Security is designed in from the first board revision, not bolted on at release.
 
 | Layer | What I implement |
 | --- | --- |
-| 🔑 **Transport** | MQTT over **mutual TLS** with per-device **X.509 client certificates** on AWS IoT Core and Azure IoT Hub |
-| 🧾 **Messaging** | Structured **MQTT topic architectures** and **device-shadow synchronisation** across AWS IoT, Azure IoT Hub, ThingsBoard, and OpenRemote |
+| 🔑 **Transport** | MQTT over **mutual TLS** with per-device **X.509 client certificates** and **server certificate pinning** on AWS IoT Core and Azure IoT Hub |
+| 🧾 **Authorisation** | **Per-device topic permissions**: each device may publish and subscribe only on its own topics, enforced by broker policies tied to its certificate identity |
+| 📨 **Messaging** | Structured **MQTT topic architectures** and **device-shadow synchronisation** across AWS IoT, Azure IoT Hub, ThingsBoard, and OpenRemote |
 | 📦 **Updates** | **Signed OTA pipelines**; A/B image-swap updates on Embedded Linux gateways |
 | 📐 **Practice** | **IEC 62443** principles, CE/RED design guidance, credential-hygiene checks in CI |
 
@@ -164,6 +165,8 @@ Security is designed in from the first board revision, not bolted on at release.
 <img alt="Mutual TLS" src="https://img.shields.io/badge/Mutual_TLS_(X.509)-2B2D42?style=for-the-badge&logo=letsencrypt&logoColor=white">
 <img alt="Secure Boot" src="https://img.shields.io/badge/Secure_Boot-8D0801?style=for-the-badge">
 <img alt="Signed OTA" src="https://img.shields.io/badge/Signed_OTA-1D3557?style=for-the-badge">
+<img alt="Certificate Pinning" src="https://img.shields.io/badge/Certificate_Pinning-3D5A80?style=for-the-badge">
+<img alt="MQTT Topic ACLs" src="https://img.shields.io/badge/MQTT_Topic_ACLs-660066?style=for-the-badge&logo=mqtt&logoColor=white">
 
 **Automotive, Standards & Binary Analysis**
 
