@@ -280,9 +280,9 @@ CAN telemetry to **ISO 11898 at 500 kbps** for cell and vehicle data, with FreeR
 
 #### 🐦 Bird Tracking Tag
 
-Sub-30 g PCB integrating **LoRa (SX1262), UWB (DW3110), GPS, and GSM** with separated antennas, keep-out zones, and ground stitching. Firmware picks LoRa or GSM adaptively from signal quality and battery state and deep-sleeps between fixes; a formal power budget showed gateway density as the dominant battery-life variable.
+Sub-30 g, **15 × 42.5 mm STM32 board designed in KiCad**, integrating **LoRa (SX1262), UWB (DW3110), GPS, and GSM** with separated antennas, keep-out zones, and ground stitching. Firmware picks LoRa or GSM adaptively from signal quality and battery state and deep-sleeps between fixes; a formal power budget showed gateway density as the dominant battery-life variable.
 
-`ESP32` `LoRa` `UWB` `GPS` `GSM` `RF PCB` `Power Budget`
+`STM32` `KiCad` `LoRa` `UWB` `GPS` `GSM` `RF PCB` `Power Budget`
 
 #### 📻 Sub-GHz Sensor Network & Gateway
 
@@ -355,7 +355,7 @@ Java Swing desktop inventory system with MySQL-backed create, read, update, and 
 - 📦 **8+ custom PCBs** in KiCad and EasyEDA, with multi-voltage 3V/5V/12V power architectures and hardware-selectable power paths
 - 🔋 Multi-rail **PMIC power trees** for wearables feeding SoC, optical/bio-impedance AFEs, IMU, and secure element
 - 📶 NFC and multi-radio layouts with RF keep-out zones, impedance-aware routing, and ground stitching
-- 🛰️ Sub-30 g GPS + LoRa + UWB + GSM tracker PCB
+- 🛰️ Sub-30 g, 15 × 42.5 mm STM32 GPS + LoRa + UWB + GSM tracker PCB, designed in KiCad
 - ⚡ 12V DC-to-AC inverter with MOSFET H-bridge, dead-time generation, TVS protection, and fusing
 - 🔬 Power-supply and analog signal-path verification in LTspice; DFM checklist that reduced re-spins
 
