@@ -106,7 +106,7 @@ Security is designed in from the first board revision, not bolted on at release.
 | 📦 **Embedded Firmware** | C, C++, ESP-IDF, FreeRTOS, Zephyr OS, bare-metal C, HAL, device drivers, bootloaders |
 | 🐧 **Embedded Linux** | Yocto Project, custom layers, read-only rootfs, A/B image updates, systemd services and watchdog, QEMU |
 | 📶 **Wireless & Protocols** | BLE 5.0, Wi-Fi, MQTT, HTTP/REST, GSM/LTE, LTE-M, LoRa, UWB, 868 MHz, NFC, CAN/CANopen, RS485/Modbus, OPC-UA |
-| 🧩 **PCB & Circuits** | EasyEDA, multi-layer and RF-aware layout, multi-rail PMIC power trees, analog front ends, inverter design, DRC, Gerbers, bring-up, DFM |
+| 🧩 **PCB & Circuits** | KiCad, EasyEDA, multi-layer and RF-aware layout, multi-rail PMIC power trees, analog front ends, inverter design, DRC, Gerbers, bring-up, DFM |
 | ☁️ **Cloud & Apps** | Python, FastAPI, Flask, AWS IoT Core, AWS Lambda, Azure IoT Hub, ThingsBoard, OpenRemote, Home Assistant, Flutter BLE apps, Docker |
 | 🔬 **FPGA & HDL** | VHDL, Intel Quartus, RTL simulation, finite state machine design, RISC datapath |
 | 🛠️ **Debug & Tools** | Oscilloscope, logic analyser, JTAG/SWD, OpenOCD, LTspice, Keil MDK, STM32CubeIDE, Zephyr west, CMake, PlatformIO |
@@ -131,6 +131,7 @@ Security is designed in from the first board revision, not bolted on at release.
 <img alt="Zephyr OS" src="https://img.shields.io/badge/Zephyr_OS-6A5ACD?style=for-the-badge">
 <img alt="AUTOSAR" src="https://img.shields.io/badge/AUTOSAR_Classic-C8102E?style=for-the-badge">
 <img alt="PlatformIO" src="https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=platformio&logoColor=white">
+<img alt="KiCad" src="https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white">
 <img alt="EasyEDA" src="https://img.shields.io/badge/EasyEDA-1B6CA8?style=for-the-badge">
 <img alt="STM32CubeIDE" src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white">
 <img alt="Keil MDK" src="https://img.shields.io/badge/Keil_MDK-394E79?style=for-the-badge&logo=arm&logoColor=white">
@@ -229,7 +230,7 @@ Production-grade **AUTOSAR Classic** layered firmware for an electric-vehicle te
 
 Integer-only odometry with a Q32 conversion factor and carried remainder, because `float` cannot represent every millimetre past 16.8 km. Crash-safe flash persistence where a record becomes authoritative on a single byte write. ISO 14229 diagnostic event management with debouncing, freeze frames and healing. Per-task watchdog supervision with execution budgets asserted at compile time.
 
-**333 host unit tests** across 16 suites · **six CI gates** (tests under 11 warning flags, firmware build, cppcheck, clang-format, Doxygen warnings-as-errors, credential hygiene) · 129 documented requirements with generated traceability · six architecture decision records · eight hand-written SVG diagrams.
+**335 host unit tests** across 16 suites · **six CI gates** (tests under 11 warning flags, firmware build, cppcheck, clang-format, Doxygen warnings-as-errors, credential hygiene) · 129 documented requirements with generated traceability · six architecture decision records · eight hand-written SVG diagrams.
 
 Writing the tests found four defects in code that had already been reviewed: a silent NvM write loss, a poisoned flash slot no retry could clear, a backlog that never crossed a date boundary, and a cellular fallback that was permanent for the life of the run.
 
@@ -351,7 +352,7 @@ Java Swing desktop inventory system with MySQL-backed create, read, update, and 
 
 ## 🖨️ PCB Design Highlights
 
-- 📦 **8+ custom PCBs** with multi-voltage 3V/5V/12V power architectures and hardware-selectable power paths
+- 📦 **8+ custom PCBs** in KiCad and EasyEDA, with multi-voltage 3V/5V/12V power architectures and hardware-selectable power paths
 - 🔋 Multi-rail **PMIC power trees** for wearables feeding SoC, optical/bio-impedance AFEs, IMU, and secure element
 - 📶 NFC and multi-radio layouts with RF keep-out zones, impedance-aware routing, and ground stitching
 - 🛰️ Sub-30 g GPS + LoRa + UWB + GSM tracker PCB
