@@ -113,7 +113,7 @@
 
 | Role | Company | Period |
 | --- | --- | --- |
-| 🩺 **Embedded Hardware & Firmware Engineer** (contract) | Maluel Limited, UK · Remote | Jul 2025 – Present |
+| 🩺 **Embedded Hardware & Firmware Engineer** (part-time contract) | Maluel Limited, UK · Remote | Jul 2025 – Present |
 | 🏭 **Embedded Systems Engineer** (part-time contract) | AMBIPER Scent and Cleaning S.L., Spain · Remote | Jul 2024 – Present |
 | 🧑‍💻 **Freelance Embedded Systems Engineer** | Self-employed · Remote | Jul 2024 – Present |
 | ⚡ **Embedded Systems Engineer** (full-time contract) | LUMS Energy Institute, Pakistan | Oct 2024 – Nov 2024 |
