@@ -43,7 +43,7 @@
 
 | Area | Skills |
 | --- | --- |
-| 📦 **Embedded firmware** | Embedded C, C++, bare-metal, FreeRTOS, Zephyr RTOS / nRF Connect SDK, ESP-IDF, STM32 HAL, drivers, state machines, MISRA C |
+| 📦 **Embedded firmware** | Embedded C, C++, bare-metal, FreeRTOS, Zephyr RTOS / nRF Connect SDK, ESP-IDF, STM32 HAL, drivers, state machines, MISRA C; Embedded Linux, Yocto, systemd |
 | 🔌 **Microcontrollers** | STM32 (F1, F4, L4, G4, WL), STM8, Nordic nRF52840 / nRF5340 / nRF9151, ESP32 (S3, C3), ESP8266, TI CC1312 / CC1352 |
 | 📶 **Protocols** | CAN, LIN, ISO 14229 UDS, RS485 / Modbus, OPC-UA, BLE 5, Wi-Fi, LTE-M / 4G, LoRa, UWB, 433 / 868 MHz, MQTT, REST, I2C, SPI, UART, I2S |
 | 🧩 **Hardware & PCB** | KiCad 10, EasyEDA, 2- to 6-layer and RF layout, power management, LTspice / ngspice, DFM, JLCPCB production, hardware bring-up |
@@ -71,6 +71,8 @@
 <img alt="KiCad" src="https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white">
 <img alt="EasyEDA" src="https://img.shields.io/badge/EasyEDA-1B6CA8?style=for-the-badge">
 <img alt="LTspice" src="https://img.shields.io/badge/LTspice-A10035?style=for-the-badge&logo=analogdevices&logoColor=white">
+<img alt="Embedded Linux" src="https://img.shields.io/badge/Embedded_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+<img alt="Yocto" src="https://img.shields.io/badge/Yocto_Project-1B75BB?style=for-the-badge&logo=yoctoproject&logoColor=white">
 <img alt="PlatformIO" src="https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=platformio&logoColor=white">
 
 **Languages**
@@ -131,6 +133,35 @@
 
 ---
 
+## 🚘 Automotive & Industrial
+
+| Work | What it involved |
+| --- | --- |
+| **Bare-metal CAN and LIN firmware** | Register-level CAN and LIN drivers and node firmware on **STM8 and STM32**, without HAL, for vehicle and industrial networks |
+| **[EV Telematics & Odometry ECU](https://github.com/abdullahshabbir2/autosar-ev-telematics)** | AUTOSAR Classic-style layered firmware: CAN, RS485, GNSS, NvM/Fee persistence, ISO 14229 diagnostic events, **335 host unit tests**, 129 traced requirements |
+| **EV battery monitoring unit** | CAN telemetry, GPS, RS485 battery-pack polling and a fail-safe battery-switching state machine, with GSM/MQTT to AWS |
+| **Factory automation** | FreeRTOS lift controller with load-cell weighing, liquid-level interlock and stepper drive |
+| **Industrial field devices** | RS485 / Modbus flow and energy metering, OPC-UA, IEC 62443 principles |
+
+`CAN` `LIN` `ISO 14229 UDS` `AUTOSAR Classic concepts` `STM8` `STM32` `Bare-metal` `MISRA C` `RS485/Modbus` `ISO 26262 (course)`
+
+---
+
+## 🖨️ PCB & Hardware Design
+
+| Board | Highlights |
+| --- | --- |
+| **Wildlife tracking tag** | Compact **6-layer STM32 (STM32WLE5)** board combining LoRa, GNSS and UWB radios with RF matching networks and a low-power sleep floor |
+| **Connected diffuser platform** | **Four hardware generations** (ESP32 to Nordic nRF52) taken through JLCPCB-assembled production batches |
+| **Ultrasonic atomizer driver** | MHz-range piezo drive stage with current and voltage sensing |
+| **USB-C PD programmable bench supply** | **4-layer** design: TPS55288 buck-boost, STUSB4500 PD sink, INA228 sensing, STM32G431 hardware-comparator protection |
+| **BLE relay timer** | 2-layer ESP32-C3 board with 433 MHz radio, IMU and protected multi-source power input |
+| **Medical wearable** | First hardware prototype built and tested; placement studies and power and thermal validation (details under NDA) |
+
+Tools and practice: **KiCad 10**, EasyEDA, 2- to 6-layer and RF-aware layout, power management, LTspice / ngspice, DFM, JLCPCB production, hardware bring-up with oscilloscope and logic analyser.
+
+---
+
 ## 📂 Projects
 
 #### 🚘 [EV Telematics & Odometry ECU](https://github.com/abdullahshabbir2/autosar-ev-telematics)
@@ -162,6 +193,12 @@ MQTT over a Quectel M95 GSM modem with AT-command response validation and separa
 Dual-node ESP32 greenhouse controller with local dashboards, REST APIs, mDNS, NVS persistence, watchdog recovery, fan hysteresis and pump lockouts.
 
 `ESP32` `C++` `REST API` `mDNS` `NVS`
+
+#### 🐧 Embedded Linux IoT Gateway (Yocto)
+
+Custom Yocto image with a read-only root filesystem and A/B updates, plus a C daemon that validates CRC-checked UART frames and republishes them to MQTT under a systemd watchdog.
+
+`Yocto` `Embedded Linux` `systemd` `C` `MQTT` `A/B Updates`
 
 #### 🎓 Academic
 
