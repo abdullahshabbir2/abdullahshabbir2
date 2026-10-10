@@ -33,7 +33,7 @@
 - 🩺 Currently building a **medical wearable** (Nordic nRF53, Zephyr, BLE, LTE-M) for a UK company: built and tested the first firmware and hardware prototype, now in gated design reviews
 - 🏭 Building **production devices** for a Spanish company: a connected diffuser line, a camera variant, a wildlife tracking tag and factory automation
 - 🚘 Automotive and industrial firmware: **bare-metal CAN and LIN on STM8 and STM32**, CAN/UDS telemetry ECUs, RS485/Modbus field devices
-- 🧪 Tested firmware: **330+ host unit tests** on an ECU, **92 on-target tests** on a medical wearable, requirements traceability and CI
+- 🧪 Tested firmware: **335 host unit tests** on an ECU, **92 on-target tests** on a medical wearable, requirements traceability and CI
 - 🎓 Completing an **M.Sc. at the University of Genoa**, with a thesis at the Italian National Institute of Health on DSP for driver-drowsiness detection
 - 💬 Open to **embedded / firmware / IoT / medical-device** roles across the EU
 
@@ -135,7 +135,7 @@
 
 #### 🚘 [EV Telematics & Odometry ECU](https://github.com/abdullahshabbir2/autosar-ev-telematics)
 
-Rewrite of a shipped EV telematics ECU that lost odometer data in the field, in an **AUTOSAR Classic-style** five-layer architecture on ESP32: CAN, RS485, GNSS, crash-safe NvM/Fee persistence and ISO 14229 diagnostic events. **330+ host unit tests**, 129 traced requirements and six CI gates; writing the tests found four defects in already-reviewed code.
+Rewrite of a shipped EV telematics ECU that lost odometer data in the field, in an **AUTOSAR Classic-style** five-layer architecture on ESP32: CAN, RS485, GNSS, crash-safe NvM/Fee persistence and ISO 14229 diagnostic events. **335 host unit tests**, 129 traced requirements and six CI gates; writing the tests found four defects in already-reviewed code.
 
 `Embedded C` `ESP32` `FreeRTOS` `CAN` `RS485/Modbus` `ISO 14229 UDS` `Unit Testing` `GitHub Actions`
 
